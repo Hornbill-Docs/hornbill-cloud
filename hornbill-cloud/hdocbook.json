@@ -1,7 +1,7 @@
 {
   "docId": "hornbill-cloud",
   "title": "Hornbill Cloud",
-  "description": "Hornbill cloud information",
+  "description": "Information on Hornbill's Cloud",
   "publicSource": "--publicSource--",
   "productFamily": "hdocs",
   "version": "0.0.1",
@@ -14,14 +14,125 @@
   "navigation": {
     "items": [
       {
-        "text": "Introduction",
-        "expand": true,
+        "text": "Continuous Delivery",
+        "link": "hornbill-cloud/continuous-delivery"
+      },
+      {
+        "text": "International Organization for Standardization (ISO)",
         "items": [
           {
-            "text": "Welcome",
-            "link": "hornbill-cloud/index"
+            "text": "About ISO",
+            "link": "hornbill-cloud/iso/about-iso"
+          },
+          {
+            "text": "Risk Management",
+            "link": "hornbill-cloud/iso/risk-management"
+          },
+          {
+            "text": "Information Security",
+            "link": "hornbill-cloud/iso/information-security"
+          },
+          {
+            "text": "Management Systems",
+            "link": "hornbill-cloud/iso/management-systems"
+          },
+          {
+            "text": "Mobile Security",
+            "link": "hornbill-cloud/iso/mobile-security"
+          },
+          {
+            "text": "HR Security",
+            "link": "hornbill-cloud/iso/hr-security"
+          },
+          {
+            "text": "Asset Management",
+            "link": "hornbill-cloud/iso/asset-management"
+          },
+          {
+            "text": "Information Classification & Handling",
+            "link": "hornbill-cloud/iso/information-classification-and-handling"
+          },
+          {
+            "text": "Access Control",
+            "link": "hornbill-cloud/iso/access-control"
+          },
+          {
+            "text": "Network Policy",
+            "link": "hornbill-cloud/iso/network-policy"
+          },
+          {
+            "text": "Cryptography Controls and Usage",
+            "link": "hornbill-cloud/iso/cryptography-controls-and-usage"
+          },
+          {
+            "text": "Physical and Environment Security",
+            "link": "hornbill-cloud/iso/physical-and-environment-security"
+          },
+          {
+            "text": "Operations",
+            "link": "hornbill-cloud/iso/operations"
+          },
+          {
+            "text": "Communications",
+            "link": "hornbill-cloud/iso/communications"
+          },
+          {
+            "text": "Supplier Relationships and Procurement",
+            "link": "hornbill-cloud/iso/supplier-relationships-and-procurement"
+          },
+          {
+            "text": "Incident Reporting Handling and Management",
+            "link": "hornbill-cloud/iso/incident-reporting-handling-and-management"
+          },
+          {
+            "text": "Change Reporting Handling Planning and Management",
+            "link": "hornbill-cloud/iso/change-reporting-handling-planning-and-management"
+          },
+          {
+          "text": "Business Continuity and Disaster Recovery",
+          "link": "hornbill-cloud/iso/business-continuity-and-disaster-recovery"
+          },
+          {
+            "text": "Compliance and Regulatory Requirements - Geographical",
+            "link": "hornbill-cloud/iso/compliance-and-regulatory-requirements-geographical"
           }
         ]
+      },
+      {
+        "text": "Instance Data Storage",
+        "link": "hornbill-cloud/instance-data-storage"
+      },
+      {
+        "text": "Subprocessors",
+        "link": "hornbill-cloud/subprocessors"
+      },
+      {
+        "text": "Firewall IPs and Ports",
+        "link": "hornbill-cloud/firewall-ips-ports"
+      },
+      {
+        "text": "Data Security Commitment",
+        "link": "hornbill-cloud/data-security-commitment"
+      },
+      {
+        "text": "Application and Interface Security",
+        "link": "hornbill-cloud/application-and-interface-security"
+      },
+      {
+        "text": "Data Centers",
+        "link": "hornbill-cloud/data-centers"
+      },
+      {
+        "text": "Cyber Essentials",
+        "link": "hornbill-cloud/cyber-essentials"
+      },
+      {
+        "text": "Penetration Tests",
+        "link": "hornbill-cloud/penetration-tests"
+      },
+      {
+        "text": "Data Polling",
+        "link": "hornbill-cloud/data-polling"
       }
     ]
   },
