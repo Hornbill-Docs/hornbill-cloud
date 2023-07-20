@@ -1,0 +1,29 @@
+{
+  "docId": "hornbill-cloud",
+  "title": "Hornbill Cloud",
+  "description": "Hornbill cloud information",
+  "publicSource": "--publicSource--",
+  "productFamily": "hdocs",
+  "version": "0.0.1",
+  "audience": [
+    "public"
+  ],
+  "languages": [
+    "en"
+  ],
+  "navigation": {
+    "items": [
+      {
+        "text": "Introduction",
+        "expand": true,
+        "items": [
+          {
+            "text": "Welcome",
+            "link": "hornbill-cloud/index"
+          }
+        ]
+      }
+    ]
+  },
+  "tags": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hornbill-cloud",
+  "version": "0.0.1",
+  "description": "",
+  "main": "hdocbook.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
