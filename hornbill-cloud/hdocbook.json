@@ -2,7 +2,7 @@
   "docId": "hornbill-cloud",
   "title": "Hornbill Cloud",
   "description": "Information on Hornbill's Cloud",
-  "publicSource": "--publicSource--",
+  "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
   "productFamily": "hdocs",
   "version": "0.0.1",
   "audience": [
