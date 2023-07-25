@@ -27,9 +27,9 @@ Hornbill will communicate using HTTP/HTTPS/WSS on Port 80 or 443 via
 |North America|207.198.105.122|64.34.188.194|
 
 ## Cloudflare
-Hornbill uses Cloudflare as a front end to provide geographical caching of static assets , all static content (NOT customer data) requests go via Cloudflare for load balancing, threat mitigation and prevention. This front end also provides initial SSL certs (via sni.cloudflaressl.com) again for static (NON customer) assets. All other traffic (Customer data) is via the below endpoints.
+Hornbill uses Cloudflare as a front end to provide geographical caching of static assets, all static content (NOT customer data) requests go via Cloudflare for load balancing, threat mitigation, and prevention. This front end also provides initial SSL certs (via sni.cloudflaressl.com) again for static (NON customer) assets. All other traffic (Customer data) is via the below endpoints.
 
-Hornbills API End points depend on your geographical location and will be listed in your initial connection response. These should also be whitelisted for HTTPS\WSS on port 443
+Hornbills API Endpoints depend on your geographical location and will be listed in your initial connection response. These should also be whitelisted for HTTPS\WSS on port 443
 
 * `lon-p01-api.hornbill.com`
 * `lax-p01-api.hornbill.com`
@@ -44,6 +44,6 @@ Hornbills URLs that should be whitelisted are
 * `files.hornbill.co`
 * `cdn.hornbill.com`
 
-Hornbills Data Import Tools will also need to connect to files.hornbill.com and files.hornbill.co
+Hornbill's Data Import Tools will also need to connect to files.hornbill.com and files.hornbill.co
 
 <!-- https://wiki.hornbill.com/index.php?title=Hornbill_Cloud_and_Platform -->
