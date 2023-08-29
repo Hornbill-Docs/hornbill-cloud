@@ -3,10 +3,10 @@ layout: article-toc
 ---
 # Overview
 ## In This Guide
-This Guide contains information about the Hornbill Cloud environment.
+This Guide contains information about the Hornbill Cloud environment. 
 * ISO Standards
 * Data Storage
-* Firwall IPs and Ports
+* Firewall IPs and Ports
 * Security
 * Data Centers
 * Continuous Deployment
