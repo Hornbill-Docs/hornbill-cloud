@@ -4,7 +4,7 @@
   "description": "Information on Hornbill's Cloud",
   "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
   "productFamily": "hdocs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "audience": [
     "public"
   ],
@@ -13,6 +13,10 @@
   ],
   "navigation": {
     "items": [
+      {
+        "text": "Overview",
+        "link": "hornbill-cloud/index"
+      },
       {
         "text": "Continuous Delivery",
         "link": "hornbill-cloud/continuous-delivery"
@@ -99,8 +103,8 @@
         ]
       },
       {
-        "text": "Instance Data Storage",
-        "link": "hornbill-cloud/instance-data-storage"
+        "text": "Data Storage",
+        "link": "hornbill-cloud/data-storage"
       },
       {
         "text": "Subprocessors",

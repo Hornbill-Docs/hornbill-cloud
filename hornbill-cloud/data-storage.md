@@ -1,11 +1,11 @@
 ---
 layout: article-toc
 ---
-# Instance Data Storage
-Hornbill only measures space used by your instances data, it does not measure disk space used by our software or any infrastructure components we deploy in order to deliver the Hornbill service. The measurement is broken down into two separate domains known as "Disk Storage" and "Database Storage". We separate these two for good reason. For "Database Storage" the underlying database we use (MariaDB) and its storage engine determine the space utilized for a given database (each customer instance has its own dedicated database). For "Disk Storage" is where we store files (see an explanation of our Content Addressable File Store technology) below, each customer also has their own CAFS store.
+# Data Storage
+Hornbill measures space used by your personal data. It does not measure disk space used by our software or any infrastructure components we deploy in order to deliver the Hornbill service. The measurement is broken down into two separate domains known as [Disk Storage](#disk-storage) and [Database Storage](#database-storage). 
 
 ## Disk Storage
-The following elements of your instance contribute toward disk storage usage
+Files are stored using Content Addressable File Store (CAFS) technology. Each customer has their own CAFS store. The following elements of an instance contribute toward disk storage usage:
 * File Attachments (e-mails, posts, entity records, requests, tasks, etc...)
 * Content Indexes
 * Embedded Images
@@ -14,15 +14,14 @@ The following elements of your instance contribute toward disk storage usage
 * Any other large binary object
 
 ## Database Storage
-The following elements of your instance contribute towards database storage usage
+The underlying database uses MariaDB and its storage engine determines the space utilized for a given database.  Each customer instance has its own dedicated database. The following elements of your instance contribute towards database storage usage
 * Posts and comments in activities
 * Tasks
 * Customer, Contact, and other database records
 * Documents (created in Document Manager)
 * Business Processes
 * Reports
-* Any dynamic content that's added to your database through the APIs, forms, and integrations
-For information on the approaches that can be employed to help you manage your storage usage more effectively, see Managing Instance Storage Usage.
+* Any dynamic content that's added to your database through the APIs, forms, and integrations.
 
 ## Storage Quota and Utilization
 Every Hornbill instance comes with 30Gb of storage and additional storage can be purchased when needed. We audit storage utilization daily and keep storage utilization history on the following basis: -
@@ -30,7 +29,9 @@ Every Hornbill instance comes with 30Gb of storage and additional storage can be
 * Daily Database storage used for the last 90 days rolling
 * Daily Disk storage used for the last 90 days rolling
 
-Your storage information can be seen in the Hornbill Administration tool under the Your Subscriptions section. Techniques available to manage storage consumption can be found here.
+:::tip
+Your storage information can be seen in the Hornbill Solution Center
+:::
 
 ## Storage Size Definition
 There is sometimes confusion about abbreviated size values used in computing. For example, most uses of the team Gb mean Gigabyte, but there are two values this can mean, one is decimal, based on "1 byte x 1000 x 1000 x 1000" and the other is base 2, which is calculated as "1 byte x 1024 x 1024 x 1024). The modern interpretations of these size abbreviations are 1Gb = 1000000000 bytes and 1GiB = 1,262,485,504 bytes, and in general, a Gb is what is normally used. The problem with base 2 calculations is they are non-linear and do not work properly as the computing technology has reached the tera and peta byte scale, so the decimal scheme has been adopted generally, and this is true for the Hornbill platform. To for the avoidance of any doubt, the following table sets out what we mean when stating storage sizes in Mb, Gb, Tb, etc.
