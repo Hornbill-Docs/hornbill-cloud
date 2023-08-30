@@ -27,6 +27,27 @@ SIEM (APIs\Resource Usage\Network Traffic and DB Access\Requests)
 
 Hornbill also maintains a fingerprint for each instance for each hour of the day across different days for key metrics (APIs\Resource Usage\Network Traffic\DB Access\Count of Emails In\Out etc) which are compared with the live instance metrics every 15 minutes. This allows us to detect any abnormal patterns which may indicate internal issues, threats, security issues, misconfiguration or other strangeness near real-time. Anything outside of a standard deviation from normal for 1 or more of the key metrics for each fingerprint is subjected to further automatic review and the outcome of this will escalate under conditions to the Cloud Team. After review, this may be escalated to the instance contacts for clarification or notification of possible issues. In extreme circumstances (Either exceptional load, possible security issue, or similar) Hornbill will act to prevent harm to the instance or platform and the contact for instance informed of the action taken and the reason.
 
+## Security Information and Event Management (SIEM)
+We have a number of ways of monitoring Hornbill Instances to detect abnormal functions. 
+
+### How SIEM Works 
+We collect and store 100s of metrics every 15 seconds which gives us an understanding of what is normal for any instance and instances in general. Because people are creatures of habit which is further enforced by work patterns and routines we are able to see patterns in the data that lend themselves to statistical analysis. 
+
+### API Count Example 
+People generally do the same thing every day, they get up in the morning at the same time (the alarms set), they go to work at the same time (it's in their contract) and they perform the same actions at nearly the same time every day (First thing read your email, then read posts, then check BBC, then go for coffee, then process new calls, then off hold calls etc). The pattern repeats and because of this, we see in every instance a similar number of API calls per hour (within 1 standard deviation of normal) every day during the week and another pattern during the weekend.  This is further enhanced by the use of automation, and things like scheduled reports or scheduled jobs which also always happen at the same time. 
+
+If we take these counts of API per hour for a given instance we see a pattern similar to the example below, and we can then look for anomalies in the data every hour when comparing to the previous 6 or 12 months for that hour.  Any change to people's work patterns may initially cause alerts but over a longer enough period these become the new normal. 
+
+We can also look for daily, weekly, shift, and other patterns, and anything that is statistically significant (1 or more standard deviations from the normal ) is investigated. 
+We perform this analysis every hour of every day on all instances and anything found gets flagged to the cloud team SIEM workspace for review.  A manual review is then used to try and understand the events and then any remaining concerns are escalated to the contacts for the given instance. 
+
+We perform the same statistical analysis on load, database, data in/out, and other metrics as well as API count to have an understanding of what is "normal" and what is not. 
+The below image shows an example of the patterns we look for (its compared data ), and what happens when an alert is generated.
+
+![SIEM Example](/_books/hornbill-cloud/images/siem-example.png)
+
+The above will allow us to spot issues due to misconfiguration, product issues (either defect or useability), or worse including security events, and escalate these to you as soon as possible.
+
 ## Backups
 All databases are replicated in real-time to separate data centers and all files are replicated off-site within 5 minutes. These replicas are then backed up (individual secure archives encrypted with 1 time key) each evening and stored off-site within S3 for the retention period specified in contracts. The backups are taken without any interruption of services
 
