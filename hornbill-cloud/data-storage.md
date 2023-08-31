@@ -10,7 +10,7 @@ Files are stored using Content Addressable File Store (CAFS) technology. Each cu
 * Content Indexes
 * Embedded Images
 * Documents (uploaded into Document Manager)
-* Installed Apps
+* Application data
 * Any other large binary object
 
 ## Database Storage
