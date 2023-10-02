@@ -9,7 +9,7 @@ Hornbills commitment to data security and confidentiality is paramount in everyt
 * Hornbill will not use any of your data for marketing\advertising unless specifically agreed with yourself. (for example in a case study).
 * Hornbill will not access any of your instance data unless you specifically provide authorization (for example in case of a support query). We will treat your data like a black box
 * Any request by 3rd party to access your data will be submitted to yourselves for approval before any action is taken.
-* Any change to the existing sub contractors (https://wiki.hornbill.com/index.php/FAQ:Subprocessors) will be disclosed to yourselves prior to change.
+* Any change to the existing [sub contractors](/hornbill-cloud/subprocessors) will be disclosed to yourselves prior to change.
 * Hornbill is committed to achieving all compliance with all applicable laws governing data in your geographical location. This includes GDPR, Data Protection Act, HIPAA.
 * Any processing of log files for analytics will be anonymized.
 * We will inform you within 24 hours of any suspected data breach.
@@ -22,6 +22,7 @@ Trust and Security is a two way path and to this end we request that you meet th
 * Always use the encrypted protocols when given the change (POP3s\SMPTS etc)
 * Inform us within 24 hours if you suspect accounts linked to Hornbill have been breached.
 * Customers as per Terms of Service will not use any other individual’s or entity’s login or identity or any other unauthorized method to access or use the SaaS Service
+* Inform Cloudsupport@hornbill.com of any large change to practices and processes or data imports and exports in advance. Our [SIEM](/hornbill-cloud/iso/operations#security-information-and-event-management-siem) will detect them and may result in us taking action if unexpected.
 
 Hornbill believes in being open and we provide our [polices and procedures](/hornbill-cloud/iso) for all. However, Enterprise customers can schedule an annual full review of all polices\controls should they wish and if required you should contact your account manager.
 

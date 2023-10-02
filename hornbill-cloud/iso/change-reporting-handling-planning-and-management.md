@@ -1,7 +1,7 @@
 ---
 layout: article-toc
 ---
-# Change Reporting/Handling and Management
+# Change Reporting, Handling, and Management
 ## Change management
 Changes are logged in Hornbill Technologies’ own Hornbill instance. The originator obtains sufficient information to complete the Change Request form and obtains the Chief Technical Officer’s or Cloud Service Manager’s approval for the change, taking into account any technical considerations, the costs of the exercise, the potential benefits, etc.
 
