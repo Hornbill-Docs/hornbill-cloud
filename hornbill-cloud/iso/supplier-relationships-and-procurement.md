@@ -49,4 +49,9 @@ The relationship owner monitors performance against the service and security cri
 The relationship owner ensures that information security incidents experienced by the third party are reviewed jointly and that relevant information security incidents experienced internally are communicated to the third party so that appropriate steps can be taken.
 The relationship owner identifies any problems of any sort (including operational problems, failures, faults and tracing faults, and disruptions), on either side of the relationship, and ensures that they are resolved, using the agreed escalation procedure where necessary.
 
+## Modern Slavery
+Hornbill has a zero-tolerance approach to modern slavery, and we are committed to conducting business ethically and with integrity, and to implementing and enforcing effective systems and controls to ensure modern slavery is not taking place anywhere in our own business or in any of our supply chains. The Board of Directors and all employees are reminded annually of their obligations regarding this policy, and training is provided as required.
+
+To ensure compliance with our values from those in our supply chain and contractors, we have implemented a supply chain compliance program. All suppliers are reviewed annually, upon contract renewal, or at the prospective stage, and are engaged to ensure they meet the same ethical standards as us.
+
 <!-- https://wiki.hornbill.com/index.php?title=ISO:Supplier_Relationships_and_Procurement -->
