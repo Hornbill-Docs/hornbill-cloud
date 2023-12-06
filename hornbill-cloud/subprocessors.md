@@ -46,6 +46,7 @@ Customer data is stored in an appropriate geographic data center and personal da
 |Google, Inc.|We use a number of services provided by Google in order to enhance the productivity and usability capability of Hornbill|In-App Translations, Mobile Messaging, GEO data lookups, and mapping.|
 |Apple, Inc.|We provide a native iOS app and integrate with Apple’s mobile data services.|Mobile Data and Messaging.|
 |Cloudflare, Inc.|Cloudflare provides a number of services for Hornbill’s platform, specifically its front-end (excluding user data), including Content Delivery Network, caching, optimization, performance, threat management, and shielding, security, and statistical usage insights.|All Hornbill Services Globally|
+|OpenAI, LLC.|OpenAI is an AI research and deployment company specializing in Artificial Inlelligence LLVM's, Machine Learning and associated services.  Hornbill uses the OpenAI platform for AI relates functions and capabilities.| 
 
 ## Group Subprocessors
 |Entity/Name|Purpose|Country|
