@@ -18,6 +18,6 @@ General Guidelines for inbound (third party to Hornbill) and outbound (Hornbill 
 * ITOM DevOps edition provides an environment for you to build behind-the-firewall or in-the-cloud custom outbound integrations.
 * Webhooks for system integration
 
-The above also applies to large data set extraction through reports\CSV or other methods including direct Query APIs. Hornbill provides alternate methods (Requested Data Dumps, Reporting ETL services, etc) that are better suited.
+The above also applies to large data set extraction through reports\CSV or other methods including direct Query APIs. Hornbill provides a Reporting ETL Service that is far better suited for these requirements and all reporting needs.
 
 <!-- https://wiki.hornbill.com/index.php?title=FAQ:Hornbill_Data_Polling -->
