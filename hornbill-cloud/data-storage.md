@@ -96,4 +96,9 @@ Stale content (that is content that is rarely accessed or is effectively soft ar
 
 Our storage scheme is fast, efficient, and capable of effectively unlimited storage, delivered elastically and with no administrative overhead placed on our customers for management. Read more about what's under the hood here Content Addressable File Store.
 
+## Data Retention
+Hornbill keeps a copy of your data as long as you are a customer. In the event you choose to terminate your agreement, Hornbill will retain your data for 30 Days from the date of termination. We will of course provide you with a copy of this data upon request in an industry standard machine readable format. Upon any termination, Hornbill shall use reasonable endeavours to assist in the migration of the customer’s data. Such assistance is to be subject to Hornbill’s terms for time and materials for consultancy services and its associated standard day rates. Hornbill also agrees that such estimates for work will be reasonable and appropriate to the scale of requests received for such data. Hornbill will delete the customer data between 30 and 60 days after the termination date. This includes all backups and data relating to those backups.
+
+A SQL data dump of your Hornbill instance will be provided (All SQL Create\Insert statements for your data) and a copy of file attachments via Secure FTP within a password encrypted ZIP. An email is then sent to the contacts associated to the Hornbill instance containing information about the data drop along with the key required to unencrypt the content.
+
 <!-- https://wiki.hornbill.com/index.php?title=Instance_Storage_Quota -->
