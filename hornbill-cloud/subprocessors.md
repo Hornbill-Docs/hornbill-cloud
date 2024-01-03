@@ -48,11 +48,11 @@ Customer data is stored in an appropriate geographic data center and personal da
 |Cloudflare, Inc.|Cloudflare provides a number of services for Hornbill’s platform, specifically its front-end (excluding user data), including Content Delivery Network, caching, optimization, performance, threat management, and shielding, security, and statistical usage insights.|All Hornbill Services Globally|
 |OpenAI, LLC.|OpenAI is an AI research and deployment company specializing in Artificial Inlelligence LLVM's, Machine Learning and associated services.  Hornbill uses the OpenAI platform for AI relates functions and capabilities.| 
 
-## Group Subprocessors
+## Group Members
 |Entity/Name|Purpose|Country|
 |-|-|-|
-|Hornbill Technologies Ltd|Hornbill Platform and Cloud Services Provider|UK|
-|Hornbill Service Management Ltd|Sales, Marketing, and Support of Hornbill Services and Applications|UK|
-|Hornbill Service Management Applications Ltd|Developer of Service Manager and Project Manager applications.|UK|
+|Hornbill Technologies Ltd (HTL)|Hornbill platform and cloud services provider and data processor|UK|
+|Hornbill Corporate Ltd (HCL)|Sales, marketing, support, and devolopment of Hornbill services and applications|UK|
+|SPHK|Support and development of Hornbill services and applications|UK|
 
 <!-- https://wiki.hornbill.com/index.php?title=FAQ:Subprocessors -->
