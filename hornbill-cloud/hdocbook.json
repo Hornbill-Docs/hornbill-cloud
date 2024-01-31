@@ -4,7 +4,7 @@
   "description": "Information on Hornbill's Cloud",
   "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
   "productFamily": "hdocs",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "audience": [
     "public"
   ],
@@ -93,8 +93,8 @@
             "link": "hornbill-cloud/iso/change-reporting-handling-planning-and-management"
           },
           {
-          "text": "Business Continuity and Disaster Recovery",
-          "link": "hornbill-cloud/iso/business-continuity-and-disaster-recovery"
+            "text": "Business Continuity and Disaster Recovery",
+            "link": "hornbill-cloud/iso/business-continuity-and-disaster-recovery"
           },
           {
             "text": "Compliance and Regulatory Requirements - Geographical",
