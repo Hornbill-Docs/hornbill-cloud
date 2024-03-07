@@ -34,6 +34,10 @@ Employees are reviewed by the appraisal process.
 
 * If a member of staff changes roles (e.g. following a promotion) then any alteration in access rights is notified to the IT Department by e-mail by the person’s manager. A copy of this e-mail is retained by the IT department for a minimum of one year. Any such change will normally require the Chief Technical Officer's approval.
 * Assets given to employees in order to perform their duties either at the start or during employment are noted as relevant by the IT department (e.g. for laptops) or the Quality Engineering Manager.
-* Should an employee leave then the Leavers checklist is completed by the HR Dept and retained for a minimum of 3 years following cessation of their employment. The Leavers checklist includes a list of items to be returned (such as keys, building fob, credit card, etc).
+* Should an employee leave then the Leavers checklist is completed by the HR Dept and retained for a minimum of 3 years following cessation of their employment. The Leavers checklist includes a list of items to be returned (such as keys, building fob, credit card, etc). The leaver is reminded of their obligations and NDAs both verbally and in writing.
+
+## Training
+At Hornbill, we prioritize the security and confidentiality of our employees and clients. That's why all of our employees undergo comprehensive cybersecurity training upon joining the company, as well as when they change roles. Additionally, we provide annual e-training courses to ensure that our employees are up-to-date on the latest security protocols and practices. These courses also serve as a reminder of their responsibilities in maintaining the security and confidentiality of our organization and its stakeholders. Through our e-training, employees are also made aware of all ISO policies and practices that pertain to their specific roles. This ensures that our team is well-equipped to handle any potential security threats and upholds the highest standards of information protection.
+
 
 <!-- https://wiki.hornbill.com/index.php?title=ISO:HR_Security -->
