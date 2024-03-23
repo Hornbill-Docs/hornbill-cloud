@@ -14,12 +14,12 @@ Files are stored using Content Addressable File Store (CAFS) technology. Each cu
 * Any other large binary object
 
 ## Database Storage
-The underlying database uses MariaDB and its storage engine determines the space utilized for a given database.  Each customer instance has its own dedicated database. The following elements of your instance contribute towards database storage usage.
+The underlying database a MySQL or MySQL compatible database system.  Each customer instance has its own dedicated and isolated database. The following elements of your instance contribute towards database storage usage.
 * Posts and comments in activities
 * Tasks
-* Customer, Contact, and other database records
-* Documents (created in Document Manager)
+* Customers, Contacts, Users, Requests, Tasks and many other database records
 * Business Processes
+* Runtime and Security Audit logs
 * Reports
 * Any dynamic content that's added to your database through the APIs, forms, and integrations.
 
@@ -46,10 +46,10 @@ There is sometimes confusion about abbreviated size values used in computing. Fo
 |TB|1,000,000,000,000 bytes|
 
 ## Data Encryption
-All data is physically stored on SSD or Hard Disks and is block-level encrypted at rest at all times. Furthermore, data is stored in a RAID configured disk set, spread across multiple physical disks making it impossible to extract any meaningful data without having all physical disks in a set to extract from. We use the industry-strength AES256 encryption scheme throughout and have a comprehensive key management system ensuring every physical and virtual server has its own set of string, unique keys for encryption.
+All data is physically stored on SSD or Hard Disks and is hardware encrypted at rest at all times. Furthermore, data is stored in a RAID configured disk set, meaning customer data sets are spread across multiple physical disks, making it doubly impossible to extract any meaningful data without having all physical disks in a set to extract from. We use the industry-strength AES256 encryption scheme throughout and have a comprehensive key management system ensuring every physical and virtual server has its own set of string, unique keys for encryption.
 
 ## Data Segregation
-Hornbill has been designed with special attention paid to the security of data, specifically, we wanted to achieve the maximum isolation between each customer's data as possible while still getting the benefit of multi-tenancy in deployment and upgrades. Hornbill is designed to deliver the best of both worlds to our customers by adopting a hybrid data isolation model. To best explain Hornbill's data isolation model we first need to describe the more traditional models.
+Hornbill has been designed with special attention paid to the security of data, specifically, we designed the system to achieve total isolation between individual customers data sets,  while still getting the benefit of multi-tenancy in deployment and upgrades. Hornbill is designed to deliver the best of both worlds to our customers by adopting a hybrid data isolation model. To best explain Hornbill's data isolation model we first need to describe the more traditional models.
 
 ### Multi-Instance Model
 This model provides a high level of data isolation because a fully independent instance of the software, database, and other components is running in full isolation for each and every customer. Typically this is delivered by providing a dedicated instance of an operating system (Linux or Windows etc) upon which a copy of the service provider's software is running as well as the data set needed to support the customer's specific instance. An example of this kind of SaaS architecture might be ServiceNow and Myservicedesk.com (Supportworks in the cloud).
