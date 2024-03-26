@@ -53,6 +53,6 @@ Customer data is stored in an appropriate geographic data center and personal da
 |-|-|-|
 |Hornbill Technologies Ltd (HTL)|Hornbill platform and cloud services provider and data processor|UK|
 |Hornbill Corporate Ltd (HCL)|Sales, marketing, support, and devolopment of Hornbill services and applications|UK|
-|SPHK|Support and development of Hornbill services and applications|UK|
+|SPHK|Support and development of Hornbill services and applications|Albania|
 
 <!-- https://wiki.hornbill.com/index.php?title=FAQ:Subprocessors -->
