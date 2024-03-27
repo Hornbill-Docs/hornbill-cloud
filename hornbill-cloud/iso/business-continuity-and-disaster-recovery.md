@@ -23,12 +23,4 @@ All instances are replicated real time to a central server located within the sa
 
 See also FAQ:Availability & Scheduled Maintenance
 
-
-## Epidemic or Pandemic
-As part of our DR and Business continuity process, Hornbill already has a plan in place for Epidemics\Pandemics which is reviewed annually and when any new threat is detected. Covid-19 has been detected as a risk, however, our exposure to this pandemic is relatively limited.
-
-As a cloud-based company, we are fully prepared for all our staff to be able to work remotely. Following Government guidelines issued on 16/03/20, all staff are working remotely from home as advised. This has been completed with no impact on existing customer services.
-
-We have also received confirmation from all our data centers that they are also able to manage any risks associated with Covid-19 and do not expect services to be impacted.
-
 <!-- https://wiki.hornbill.com/index.php?title=ISO:Business_Continuity_and_Disaster_Recovery -->
