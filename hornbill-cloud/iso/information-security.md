@@ -18,6 +18,8 @@ Any data collected and processed for analytical reasons must be anonymized. The 
 
 
 ## Statistics\Metrics\Measures
-Any data collected and processed for Statistics\Monitoring\Metrics must be anonymized, The level of anonymization is per node\instance\service\API. No user should be identifiable. Only counts or other INT values may be collected
+All data collected and processed for statistics, monitoring, and metrics must be anonymized. The level of anonymization is on a per node, instance, service, or API basis. No user should be able to be identified. Only counts or other integer values may be collected.
+
+This means that we may collect, for example, the number of times a given API is used in a given time period or the time it takes for the API to complete. However, we will not have access to the data that was sent or received through the API request.
 
 <!-- https://wiki.hornbill.com/index.php?title=ISO:Information_Security -->
