@@ -7,8 +7,8 @@ With some types of integrations, customers will have asked if they can poll our 
 
 Hornbill is fundamentally a transactional system, the underlying application database prioritizes optimization for transactional performance over data query performance, in essence, the application database is not designed or optimized for large dataset queries. Through the user interface, datasets are always managed, and queries are paged and kept small in order to keep user responsiveness optimal.
 
-:::note
-If you need direct database access for on-demand bulk data extraction, this is only possible using our [Direct Database Access(DDA) Service](/esp-fundamentals/core-capabilities/direct-database-access)
+:::warning
+If you do need direct database access for on-demand bulk data queries and/or data extraction, this is possible using our [Direct Database Access(DDA) Service](/esp-fundamentals/core-capabilities/direct-database-access) service.  This service is designed for those organizations that wish to use a data warehouse and/or external analytics tools.  The DDA Service is designed for this exact purpose, it provides an isolation barrier between your application database and your data extract needs, ensuring large data extractions or complex queries, no matter how frequent, do not have a direct impact on your instances main database that would otherwise impact the responsiveness of your Hornbill instance. 
 :::
 
 When asked, we will always look at the merit of each request to perform this type of integration, but as a general rule we will not allow large dataset polling of your instance main database, there is no direct database connection to your instance (unless you have access to the [DDA Service](/esp-fundamentals/core-capabilities/direct-database-access), and our APIs are generally restricted in the spirit of “fair use”, in our case fair use means, largely transactional integrations.
