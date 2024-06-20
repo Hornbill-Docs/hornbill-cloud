@@ -24,6 +24,6 @@ Trust and Security is a two way path and to this end we request that you meet th
 * Customers as per Terms of Service will not use any other individual’s or entity’s login or identity or any other unauthorized method to access or use the SaaS Service
 * Inform Cloudsupport@hornbill.com of any large change to practices and processes or data imports and exports in advance. Our [SIEM](/hornbill-cloud/iso/operations#security-information-and-event-management-siem) will detect them and may result in us taking action if unexpected.
 
-Hornbill believes in being open and we provide our [polices and procedures](/hornbill-cloud/iso/about-iso/) for all. However, Enterprise customers can schedule an annual full review of all polices\controls should they wish and if required you should contact your account manager.
+Hornbill believes in being open and we provide our [polices and procedures](/hornbill-cloud/iso/about-iso) for all. However, Enterprise customers can schedule an annual full review of all polices\controls should they wish and if required you should contact your account manager.
 
 <!-- https://wiki.hornbill.com/index.php?title=Data_Security_Commitment -->
