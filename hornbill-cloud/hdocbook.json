@@ -4,7 +4,7 @@
   "description": "Information on Hornbill's Cloud",
   "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
   "productFamily": "hdocs",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "audience": [
     "public"
   ],
