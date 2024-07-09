@@ -49,7 +49,7 @@ The below image shows an example of the patterns we look for (its compared data 
 The above will allow us to spot issues due to misconfiguration, product issues (either defect or useability), or worse including security events, and escalate these to you as soon as possible.
 
 ## Backups
-All databases are replicated in real-time to separate data centers and all files are replicated off-site within 5 minutes. These replicas are then backed up (individual secure archives encrypted with 1 time key) each evening and stored off-site within S3 for the retention period specified in contracts. The backups are taken without any interruption of services
+All databases are replicated in real-time to separate data centers and all files are replicated off-site within 15 minutes. These replicas are then backed up (individual secure archives encrypted with 1 time key) each evening and stored off-site within S3 for the retention period specified in contracts. The backups are taken without any interruption of services
 
 Our 'Maximum Data Loss Time Period' or RPO is a maximum of 24 hours (or the time back to the last 23:00 backup). However, we aim for 15 minutes, as we replicate customer data at this frequency. Hornbill's RTO 'Recovery Time Objective' in the event Hornbill has to invoke its DR (Disaster Recovery) plan is defined as
 
