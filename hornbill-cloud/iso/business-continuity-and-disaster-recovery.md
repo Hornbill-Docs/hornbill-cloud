@@ -13,6 +13,21 @@ The plan is tested against 2 main scenarios at least once every year to ensure t
 
 Testing is performed remotely and its objectives are to show that we can continue to provide all services to existing customer, recreate the contents of 1 or more data centers in time specified in our SLAs and begin to provide all back end services used by Hornbill offices by the end of 1 working day.
 
+Our 'Maximum Data Loss Time Period' or RPO is a maximum of 24 hours (or the time back to the last 23:00 backup). However, we aim for 15 minutes, as we replicate customer data at this frequency. Hornbill's RTO 'Recovery Time Objective' in the event Hornbill has to invoke its DR (Disaster Recovery) plan is defined as
+
+Emergency response to assess the level of damage, decide whether to invoke the plan and at what level, notify staff, etc. (to be completed within 1 – 2 business hours of the disaster)
+
+* Provision of an emergency level of service (within 4 business hours of the disaster)
+* Restoration of key services (within 8 business hrs of the disaster)
+* Recovery to business as normal. (within one week of the disaster)
+
+  
+The emergency level of service is to ensure our customers and their customers can use the Hornbill Services and applications with minimal disruption. To this end all Applications and databases will be restored however file attachments (Associated with emails, workspaces, Document Manager, or requests) might not be available, and search functionality will be limited.
+
+Restoration of Key services will be to provide the customer with a fully working system and no difference from what they had before the DR plan was activated. All Applications, Databases, File Attachments, and functionality restored.
+
+Recovery to business as Normal would only ever be needed should a true Disaster occur. This would include the total loss of 1 or more data centers AND Hornbill offices at the same time. The Recovery to business as Normal would ensure that all Hornbill services (both customer facing and internal) were fully restored).
+
 Any outcomes\failings in the tests are noted and addressed within 1 month of the exercise and if necessary a new test scheduled.
 
 A redacted version of the DR Plan is available on request.
