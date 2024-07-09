@@ -55,9 +55,10 @@ Our 'Maximum Data Loss Time Period' or RPO is a maximum of 24 hours (or the time
 
 Emergency response to assess the level of damage, decide whether to invoke the plan and at what level, notify staff, etc. (to be completed within 1 – 2 business hours of the disaster)
 
-Provision of an emergency level of service (within 4 business hours of the disaster)
-Restoration of key services (within 8 business hrs of the disaster)
-Recovery to business as normal. (within one week of the disaster)
+* Provision of an emergency level of service (within 4 business hours of the disaster)
+* Restoration of key services (within 8 business hrs of the disaster)
+* Recovery to business as normal. (within one week of the disaster)
+  
 The emergency level of service is to ensure our customers and their customers can use the Hornbill Services and applications with minimal disruption. To this end all Applications and databases will be restored however file attachments (Associated with emails, workspaces, Document Manager, or requests) might not be available, and search functionality will be limited.
 
 Restoration of Key services will be to provide the customer with a fully working system and no difference from what they had before the DR plan was activated. All Applications, Databases, File Attachments, and functionality restored.
