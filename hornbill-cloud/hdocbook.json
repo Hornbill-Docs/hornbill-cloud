@@ -3,8 +3,8 @@
   "title": "Hornbill Cloud",
   "description": "Information on Hornbill's Cloud",
   "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
-  "productFamily": "hdocs",
-  "version": "0.0.32",
+  "productFamily": "operational",
+  "version": "0.0.33",
   "audience": [
     "public"
   ],
