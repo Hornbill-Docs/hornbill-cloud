@@ -26,10 +26,10 @@ All our data centers must be secured and physical security perimeters (e.g., fen
 All data centers\facilitators have policies and procedures for the secure disposal of equipment. This includes a wiping solution or destruction process that renders recovery of information impossible. Any equipment including hard drives are destroyed once wiped rather than recirculated and documents\certificates confirming this provided should we not be present to witness the event.
 
 
-### PEER1
+### PEER1\Aptum
 The highly secure and redundant IT infrastructure provides Hornbill with a remarkable data center platform upon which we deliver our cloud services.
 
-Peer1 provide us with networking infrastructure and bare metal servers. We provide our own complete software stack and manage all of our PODs from a 24x7x365 network operations center based in the UK.
+Peer1\Aptum provide us with networking infrastructure and bare metal servers. We provide our own complete software stack and manage all of our PODs from a 24x7x365 network operations center based in the UK.
 
 SSAE (Statement on Standards for Attestation Engagements) 16 Type II
 CSAE (Canadian Standard on Assurance Engagements) 3416 certified
