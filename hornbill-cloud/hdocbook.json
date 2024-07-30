@@ -1,7 +1,7 @@
 {
   "docId": "hornbill-cloud",
   "title": "Hornbill Cloud",
-  "description": "Information on Hornbill's Cloud",
+  "description": "An end-to-end guide to IT security at Hornbill",
   "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
   "productFamily": "operational",
   "version": "0.0.35",
