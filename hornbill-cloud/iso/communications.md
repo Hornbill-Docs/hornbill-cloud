@@ -34,4 +34,4 @@ Hornbill has not received any request from the Police or Government agency in an
 
 
 ### Security Concern
-In the event of a SIEM detection or similar abornmal activityHornbill will contact the Authorised, Primary and Secondary Technical contacts within 1 hour . For concerns related to software incorporated in the stack Hornbill will post to the Hornbill Forum, when needed, any concern that is already mitagated through other controls\processes or configuration will not be routinely posted. 
+In the event of a SIEM detection or similar abornmal activity Hornbill will contact the Authorized, Primary and Secondary Technical contacts within 1 hour . For concerns related to software incorporated in the stack Hornbill will post to the Hornbill Forum, when needed, any concern that is already mitagated through other controls\processes or configuration will not be routinely posted. 
