@@ -31,3 +31,7 @@ All communication will be via official channels. No personal mailboxes\twitter a
 Hornbill has not received any request from the Police or Government agency in any of the areas we operate.
 
 <!-- https://wiki.hornbill.com/index.php?title=ISO:Communications -->
+
+
+### Security Concern
+In the event of a SIEM detection or similar abornmal activityHornbill will contact the Authorised, Primary and Secondary Technical contacts within 1 hour . For concerns related to software incorporated in the stack Hornbill will post to the Hornbill Forum, when needed, any concern that is already mitagated through other controls\processes or configuration will not be routinely posted. 
