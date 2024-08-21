@@ -5,8 +5,7 @@ layout: article-toc
 The network controls and system for remote connection via VPN coupled with the firewall and other network security features help ensure the integrity and confidentiality of electronic messages. Additionally, outgoing e-mail has a disclaimer added to the message indicating that the message and the information contained within it is intended for the recipient alone and that any unintentional recipient should not act upon the information apart from notification to the sender that the message has been inadvertently diverted. The unintended recipient should delete the message and inform the sender of the error. Rules for the use of e-mail are defined within the employee handbook.
 
 ## Notification and Communication
-Any customer affected by a given incident will be notified. Hornbill will provide the following level of communication for each of the defined events. The incident is either a direct issue or one that affects part of our supply chain including tools we may use. For outages, the incident must last longer than 15 minutes (for shorter time frames updates may be posted on status or within the forum)
-
+Any customer affected by a given incident will be notified. Hornbill will provide the following level of communication for each of the defined events. The incident is either a direct issue or one that affects part of our supply chain including tools we may use. For outages, the incident must last longer than 15 minutes (for shorter time frames updates may be posted on status or within the forum) and result in unacceptable (Greater than 2 seconds) or no response to an instance API endpoint.
 ### Outage
 Initial communication by Bulk email to all affected customers (Primary\Secondary and Technical as well as customer Partner) within 15 minutes
 
