@@ -47,6 +47,7 @@ Customer data is stored in an appropriate geographic data center and personal da
 |Apple, Inc.|We provide a native iOS app and integrate with Apple’s mobile data services.|Mobile Data and Messaging.|
 |Cloudflare, Inc.|Cloudflare provides a number of services for Hornbill’s platform, specifically its front-end (excluding user data), including Content Delivery Network, caching, optimization, performance, threat management, and shielding, security, and statistical usage insights.|All Hornbill Services Globally|
 |OpenAI, LLC.|OpenAI is an AI research and deployment company specializing in Artificial Inlelligence LLVM's, Machine Learning and associated services.  Hornbill uses the OpenAI platform for AI relates functions and capabilities.| 
+!Microsoft Azure| Azure OpenAI Services for Generative AI Text Generation. Hornbill uses the Azure OpenAI platform for Generative AI functions and capabilities only when you have specifically opted in. The Region of Azure used is related to your instance. | All Hornbill Applications that have HAI capability |
 
 ## Group Members
 |Entity/Name|Purpose|Country|
