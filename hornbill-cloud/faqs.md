@@ -22,7 +22,7 @@ Data is encrypted both in motion and at rest, in addition, our choice of data ce
 
 ## Does Hornbill regularly undertake penetration testing against the service?
 
-Yes. As well as frequent tests undertaken by Hornbill we utilise external security companies to validate our results and services at least annually. Results of tests are available on request.
+Yes. As well as frequent tests undertaken by Hornbill we utilize external security companies to validate our results and services at least annually. Results of tests are available on request.
 
 ## Under Data Protection legislation, my legal team want to know who will have access to the data?
 
@@ -54,7 +54,7 @@ This British Standard covers the following areas which tick all the necessary bo
 All data in motion between instance and client (Web Browser) is encrypted via HTTPS\SSL. All other data in transit is encrypted via other secure protocols. No data is ever transmitted in clear text.
 
 ## What Happens with our data after we terminate our subscription
-Upon any termination, Hornbill shall use reasonable endeavours to assist in the migration of the Customer’s data and documents to another system within 20 working days. Such assistance to be subject to Hornbill’s terms for time and materials consultancy services and its associated standard day rates. Hornbill also agrees that such estimates for work will be reasonable and appropriate to the scale of request received for such data. Hornbill will delete (see below) the Customer Data between 30 and 60 days after the termination date. This includes all backups and data relating to those backups (Replications, Keys, Catalogs etc.
+Upon any termination, Hornbill shall use reasonable endeavors to assist in the migration of the Customer’s data and documents to another system within 20 working days. Such assistance to be subject to Hornbill’s terms for time and materials consultancy services and its associated standard day rates. Hornbill also agrees that such estimates for work will be reasonable and appropriate to the scale of request received for such data. Hornbill will delete (see below) the Customer Data between 30 and 60 days after the termination date. This includes all backups and data relating to those backups (Replications, Keys, Catalogs etc.
 
 A SQL data dump will be provided of your instance (All SQL Create\Insert statements for your data) and the copy of File Attachments via Secure FTP within a password encrypted ZIP.  An email is then sent to the primary technical contact for the instance containing information about the data drop along with the key required to unencrypted the content.
 
