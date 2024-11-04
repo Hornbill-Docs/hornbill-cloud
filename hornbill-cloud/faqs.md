@@ -4,9 +4,7 @@ layout: article-toc
 # General FAQs
 ## What If I need a copy of my data what is involved, and how frequently can I get hold of it?
 
-Firstly it's your data so by definition you are entitled to ask for a copy. Should you need a copy all you need to do is provide Hornbill with notice that you require this, typically no less than 14 days notice is required, and we will make available a copy of your data. Hornbill will provide a copy of your data by request once every 90 days at no additional cost.  Your data will archived, compressed, encrypted and placed on our servers and you will be notified via email when its available and will have 7 days to download it to your servers.  If you want these more frequently then you should consider the [[Hornbill Data Assurity]] service.
-
-Hornbill Data Assurity is an optional chargeable subscription add-on service where we proactively archive and deliver a complete copy of your customer data to a cloud service of your choosing that you control (Amazon S3 for example) on a more regular, scheduled basis, typically once a month.
+Firstly it's your data so by definition you are entitled to ask for a copy. Should you need a copy all you need to do is provide Hornbill with notice that you require this, typically no less than 14 days notice is required, and we will make available a copy of your data. A data dump of your Hornbill instance will be provided on request (Number of CSV files of your data) on termination or twice per year and a copy of file attachments (Which includes Request Attachments, Email Attachments and Document Manager Documents etc) via Secure FTP within 2 password encrypted ZIPs. An email is then sent to the contacts associated to the Hornbill instance containing information about the data drop along with the key required to unencrypt the content.
 
 ## Who is entitled to ask for a copy of my data to be provided?
 
@@ -66,18 +64,11 @@ Setting an IP restriction will not prevent the UI pages from loading, but if you
 It should be noted that by adding such restrictions, it is generally not possible to know the IP address(es) where mobile data comes from, so if you use IP address restrictions it is likely that you will not be able to use the Hornbill Mobile app unless wifi is enabled and your device gets allocated an IP address that falls within a rage that the rules you have created allow.
 
 ## What Happens to my data when it is translated using Google Translate
-To implement our translation capability, we use Google's translate service, via the Google Translation API.  At the point you choose to translate any given text, our service will send that text to Google via the Translate API, and Google will return the translated version of that text.   The full details of exactly how Google processes data is described in their terms here: https://cloud.google.com/translate/data-usage You can see a full list of our data sub-processors and the service we use to support our service here: https://wiki.hornbill.com/index.php/FAQ:Subprocessors
+To implement our translation capability, we use Google's translate service, via the Google Translation API.  At the point you choose to translate any given text, our service will send that text to Google via the Translate API, and Google will return the translated version of that text.   The full details of exactly how Google processes data is described in their terms here: https://cloud.google.com/translate/data-usage You can see a full list of our data sub-processors and the service we use to support our service here: https://docs.hornbill.com/hornbill-cloud/subprocessors)
 
 The summary of these terms states that Google will temporarily store the data on their servers for the sole purpose of performing the requested translation, your data is not shared with anyone or made public in any way, and is removed from Google's servers within a day or two.
 
 If you are uncomfortable with your data being sent to Google's servers there is an option to disable this capability on your instance.
-
-
-## Delete v Wipe 
-For Storage devices no longer used. Hornbill does not simply "delete" data as this can be restored, we destroy data via wiping and this is achieved by overwriting all data blocks associated to a given file\logical volume or storage device firstly with 1s and then 0s. No data is left intact. 
-
-Physical disks (Used by underlying hardware not virtual disks that the instances run on) under go the same process as above and are then destroyed on premise with certificate of destruction obtained.
-
 
 ## How does the Hornbill authenticate to a customer’s directory service such as Active Directory?
 Hornbill employes an open standard called SAML 2.0, it's a secure, robust, enterprise-class authentication scheme that is industry standard.  More can be found here: https://en.wikipedia.org/wiki/SAML_2.0  and details specific to Hornbill's implementation can be found here: https://wiki.hornbill.com/index.php/Single_Sign_On_with_SAML_2.0
