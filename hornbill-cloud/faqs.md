@@ -66,7 +66,7 @@ By adding such restrictions, it is generally not possible to know the IP address
 :::
 
 ## What happens to my data when it is translated using Google Translate?
-To implement our translation capability, we use Google's translate service, via the Google Translation API. At the point you choose to translate any given text, our service will send that text to Google via the Translate API, and Google will return the translated version of that text. The full details of exactly how Google processes data is described [in their terms](https://cloud.google.com/translate/data-usage). You can see [a full list of our data sub-processors and the service we use to support our service](hornbill-cloud/subprocessors).
+To implement our translation capability, we use Google's translate service, via the Google Translation API. At the point you choose to translate any given text, our service will send that text to Google via the Translate API, and Google will return the translated version of that text. The full details of exactly how Google processes data is described [in their terms](https://cloud.google.com/translate/data-usage). You can see [a full list of our data sub-processors and the service we use to support our service](/hornbill-cloud/subprocessors).
 
 The summary of these terms states that Google will temporarily store the data on their servers for the sole purpose of performing the requested translation. Your data is not shared with anyone or made public in any way, and is removed from Google's servers within a day or two.
 
