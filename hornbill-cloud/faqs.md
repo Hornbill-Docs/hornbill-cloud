@@ -16,7 +16,7 @@ All data is held in the geographical legal entity associated with the instance. 
 
 ## Is the data encrypted and secure both in motion and at rest?
 
-Data is encrypted both in motion and at rest. In addition, our choice of data centre\infrastructure\product architecture\processes and general working ethos ensure that data is secure at all times. Full encryption at rest is applied across the board.  All data in motion is encrypted either via HTTPS\TLS 1.2/3, and verified trusted SSL certificates are used at all times.
+Data is encrypted both in motion and at rest. In addition, our choice of data centers\infrastructure\product architecture\processes and general working ethos ensure that data is secure at all times. Full encryption at rest is applied across the board.  All data in motion is encrypted either via HTTPS\TLS 1.2/3, and verified trusted SSL certificates are used at all times.
 
 ## Does Hornbill regularly undertake penetration testing against the service?
 
@@ -125,7 +125,7 @@ The platform allows administrators to set up these tasks to target specific type
 The scheduling capability of Hornbill’s tools ensures that these data management tasks can be performed during off-peak hours, minimizing disruption to daily operations. This automated approach not only saves time and reduces the workload on IT staff but also enhances the accuracy and reliability of data management processes. By systematically removing outdated or unnecessary data, organizations can maintain a clean and efficient database, ultimately optimizing their service delivery and ensuring compliance with data protection regulations such as GDPR or CCPA.
 
 
-## Is Hornbill PSN-P compliant? and are the data centres PASF accredited (Police Assured Secure Facility)
+## Is Hornbill PSN-P compliant? and are the data centers PASF accredited (Police Assured Secure Facility)
 Hornbill, is not PSN-P compliant. PSN-P certified, or its data centers Public Services Network Protect certified. 
 
 However, while Hornbill may not have achieved PSN-P compliance, it is important to highlight that all of its data centers are subject to rigorous control measures. These data centers are governed by stringent security protocols that are designed to meet and often exceed the requirements set forth by PASF accreditation. PASF, or Police Assured Secure Facility, is a certification that ensures facilities maintain the highest standards of security, making them suitable for handling sensitive police and governmental data.
