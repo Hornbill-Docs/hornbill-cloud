@@ -27,7 +27,7 @@ When we write code for a fix or a minor feature/enhancement we follow a strict m
 * **beta**<br>Our beta steam is used by all pre-production instances. Hornbill's own production instances run on this stream, as do our beta test customers, some sandboxes, sales demo instances, and partner instances. At this point, we do not expect to see any issues but if anything does show up the build is blocked from progressing any further. While on this stream we monitor performance, API, and system logs to make sure there are no unexpected error conditions. Once the build has been on beta for 48 hours without issue the build master for that project will promote the build to live.
 * **live**<br>Our live stream is production. Once a build is pushed to live, all production instances will update themselves to that build. Hornbill is an always up-to-date solution using continuous development and updates with 0 downtime occurring throughout the day. However, the platform and applications that may require up to 2 minutes of downtime, occur at 0500 UTC for Platform and 0530 UTC for applications Mon-Fri.
 
-![Delivery Cycle](_books/hornbill-cloud/images/delivery-cycle.png)
+![Delivery Cycle](/_books/hornbill-cloud/images/delivery-cycle.png)
 
 ## Hornbill Major "New" Feature Update Process
 If we add something major that is new, for example, introduce a new application, a new report,or a new view that did not previously exist then we simply follow the above Hornbill Update Process and leave the In-App training to guide our users to the new functionality.
