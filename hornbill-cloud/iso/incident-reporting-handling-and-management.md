@@ -33,12 +33,14 @@ Hornbill employs a multi-tiered approach to address and mitigate unexpected or h
 
 The time intervals between escalation levels are dynamic and depend on factors such as:
 
-Severity of the event: How critical is the issue? Does it pose an immediate threat to system stability or data integrity?
-Potential impact: What is the likelihood of the event causing widespread issues for other customers, beyond the immediate target instance?
+* Severity of the event: How critical is the issue? Does it pose an immediate threat to system stability or data integrity?
+* Potential impact: What is the likelihood of the event causing widespread issues for other customers, beyond the immediate target instance?
+
+
 Key Principles:
 
-Proactive Monitoring: Continuous monitoring through SIEM (Security Information and Event Management) and load alerts plays a crucial role in early detection of anomalies.
-Customer Collaboration: Hornbill prioritizes collaboration with customers at every stage of the escalation process to minimize impact and ensure a coordinated response.
+* Proactive Monitoring: Continuous monitoring through SIEM (Security Information and Event Management) and load alerts plays a crucial role in early detection of anomalies.
+* Customer Collaboration: Hornbill prioritizes collaboration with customers at every stage of the escalation process to minimize impact and ensure a coordinated response.
 
 Sample Escalation Levels:
 
@@ -46,45 +48,49 @@ Level 0: Notification
 
 Triggers: SIEM alerts, load alerts, performance issues, data integrity concerns.
 Actions:
-Initial investigation and assessment of the situation.
-Potential notification to the customer.
+* Initial investigation and assessment of the situation.
+* Potential notification to the customer.
 
 
 Level 1: Temporary Instance Suspension (Short-Term)
 
 Triggers: Persistent performance issues, resource exhaustion.
 Actions:
-Temporary suspension of the instance for a brief period (typically 5-10 minutes).
-Resetting the instance load to alleviate immediate pressure.
-Limiting resource consumption (CPU, query timeouts) to prevent further escalation.
+* Temporary suspension of the instance for a brief period (typically 5-10 minutes).
+* Resetting the instance load to alleviate immediate pressure.
+* Limiting resource consumption (CPU, query timeouts) to prevent further escalation.
 
 
 Level 2: Temporary Instance Suspension (Extended)
 
 Triggers: Continued resource exhaustion, potential for wider system impact.
 Actions:
-Extended instance suspension (up to 15 minutes) with forced user logout.
-Further reduction of resource limits.
-Simple data modifications (e.g., adjusting auto-responder rules).
+* Extended instance suspension (up to 15 minutes) with forced user logout.
+* Further reduction of resource limits.
+* Simple data modifications (e.g., adjusting auto-responder rules).
 
 
 Level 3: Direct Data Modification and Resource Restriction
 
 Triggers: Continued instability, potential for data corruption or unauthorized access.
-Actions:
-Direct data modifications (e.g., blocking user accounts, removing sensitive keys).
-Prevention of certain actions (e.g., running reports, accessing specific dashboards).
-Minimizing resource allocation to the instance.
+* Actions:
+* Direct data modifications (e.g., blocking user accounts, removing sensitive keys).
+* Prevention of certain actions (e.g., running reports, accessing specific dashboards).
+* Minimizing resource allocation to the instance.
 
 
 Level 4: Extended Instance Suspension
 
 Triggers: Unresolved issues despite previous actions, significant risk to system stability.
 Actions:
-Prolonged instance suspension (up to 1 hour) to enforce corrective actions.
-Continued collaboration with the customer to identify and resolve the root cause.
+* Prolonged instance suspension (up to 1 hour) to enforce corrective actions.
+* Continued collaboration with the customer to identify and resolve the root cause.
+
+
 Important Notes:
 
-This is a sample escalation plan and may be adjusted based on specific circumstances and customer agreements.
+This is a sample escalation plan and may be adjusted based on specific circumstances and customer agreements. Enterprise customers have a less punative set of actions and greater resource allocation and tenant isolation. 
+
 Hornbill reserves the right to take necessary actions to protect its systems and the interests of all its customers.
+
 Regular communication and transparency with customers are essential throughout the escalation process.
