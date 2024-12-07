@@ -47,6 +47,7 @@ Sample Escalation Levels:
 Level 0: Notification
 
 Triggers: SIEM alerts, load alerts, performance issues, data integrity concerns.
+
 Actions:
 * Initial investigation and assessment of the situation.
 * Potential notification to the customer.
@@ -55,6 +56,7 @@ Actions:
 Level 1: Temporary Instance Suspension (Short-Term)
 
 Triggers: Persistent performance issues, resource exhaustion.
+
 Actions:
 * Temporary suspension of the instance for a brief period (typically 5-10 minutes).
 * Resetting the instance load to alleviate immediate pressure.
@@ -64,6 +66,7 @@ Actions:
 Level 2: Temporary Instance Suspension (Extended)
 
 Triggers: Continued resource exhaustion, potential for wider system impact.
+
 Actions:
 * Extended instance suspension (up to 15 minutes) with forced user logout.
 * Further reduction of resource limits.
@@ -73,7 +76,8 @@ Actions:
 Level 3: Direct Data Modification and Resource Restriction
 
 Triggers: Continued instability, potential for data corruption or unauthorized access.
-* Actions:
+
+ Actions:
 * Direct data modifications (e.g., blocking user accounts, removing sensitive keys).
 * Prevention of certain actions (e.g., running reports, accessing specific dashboards).
 * Minimizing resource allocation to the instance.
@@ -82,6 +86,7 @@ Triggers: Continued instability, potential for data corruption or unauthorized a
 Level 4: Extended Instance Suspension
 
 Triggers: Unresolved issues despite previous actions, significant risk to system stability.
+
 Actions:
 * Prolonged instance suspension (up to 1 hour) to enforce corrective actions.
 * Continued collaboration with the customer to identify and resolve the root cause.
