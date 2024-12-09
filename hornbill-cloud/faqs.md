@@ -133,5 +133,27 @@ However, while Hornbill may not have achieved PSN-P compliance, it is important 
 Although the data centers themselves are not officially PASF accredited, Hornbill's commitment to security is evident in the comprehensive measures they have implemented. These measures include advanced physical security, access control systems, robust cybersecurity frameworks, and constant monitoring to safeguard data against potential threats. These security practices ensure that Hornbill’s data centers provide a secure environment that aligns closely with the objectives of PASF accreditation, thereby offering a high level of assurance to its clients regarding the safety and confidentiality of their data.
 
 
+## Can I request data restored fromm Backups, If I accidently delete something
+
+Hornbill backups are primarily intended for disaster recovery (DR) purposes, not for correcting customer-initiated data deletions.
+
+However, upon customer request, Hornbill can investigate the feasibility of restoring only the deleted content. This investigation may be chargeable at an hourly rate.
+
+The complexity arises from the intricate relationships between different entities and the distributed nature of data across multiple tables.
+
+Directly restoring only the deleted data is often impractical due to the following:
+
+* Identifying "missing data" requires a full system restore on a separate database for comparison.
+* Complex inter-entity relationships make selective restoration challenging.
+* For example, if a customer deletes all call requests starting with "1234", identifying and restoring the affected data would involve:
+
+* * Extracting all matching records from the primary table.
+* * Identifying and restoring related data from over 30 associated tables.
+* * Locating and restoring any related emails and their attachments.
+* * This comprehensive process necessitates a thorough investigation to determine the most efficient and cost-effective recovery method.
+
+Once the review has been performed we will advise if the restore or just the missing data is feasable or an entire restore to last backup point is required. If you choose you can also have an export of the identified data for manual or other non restorative methods. 
+
+
 
 
