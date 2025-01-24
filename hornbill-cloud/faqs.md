@@ -2,6 +2,25 @@
 layout: article-toc
 ---
 # General FAQs
+## Generic Security questionnaires
+At Hornbill we take our responsibility as a cloud service provider very seriously.
+
+We recognise that you as a customer must to take the important step of ensuring that we are doing the right things and have the appropriate processes and measures in place around the delivery of the Hornbill service. What we have found over the years is that this typically means that your security team will often have questions they want or need to ask in order to satisfy your organisations policies in respect to on-boarding a new cloud service. As a rule this process typically takes one of two forms:
+* the 'security questionnaire', or,
+* the 'quick discussion'.
+
+These approaches both have their merits and provide information relevant at that point in time. One must concede that in the world of technology and cloud services things develop and evolve at a fast pace, and as a result at Hornbill we are continuously improving our security and cloud policies over time to keep track with changes in technology and in response to the evolution of security and compliance requirements.
+
+As a result Hornbill has adopted a policy where we do not complete individual security questionnaires, as aside from this being a very repetitive and time consuming exercise, for the reasons outlined above information supplied and subsequently filed away by your organisation is very often quickly out of date or obsolete.
+
+In seeking to ensure that you have the information you require at the outset to make an accurate judgement as to our suitability as a Cloud provider and in looking to simplify the task for your security team in revisiting and reviewing our cloud service as required, we offer the following approach.
+
+We have pulled together a set of frequently asked questions (FAQ's) that relate to our cloud services, these have been built up over time in response to security questions we have been asked over time and include questions we ourselves would ask when signing up to a cloud service ourselves.
+
+If for any reason your security team are unable to completely satisfy themselves with the documented information or if for any reason they find we have not provided answers to any specific areas then Enterprise customers can schedule a 30 minute conference call* directly with a specialist from our cloud team to answer any outstanding questions, which in turn will be added to the FAQ's on the Hornbill Documentation. Non enterprise customers should contact your Hornbill Representative to discuss the use of service credits. 
+
+
+
 ## What if I need a copy of my data? What is involved, and how frequently can I get hold of it?
 
 Firstly, it's your data. So by definition you are entitled to ask for a copy. Should you need a copy, all you need to do is provide Hornbill with notice that you require this. Typically, no less than 14 days notice is required, and we will make available a copy of your data. A data drop of your Hornbill instance will be provided on request (a number of CSV files of your data) on termination, or twice per year, and a copy of file attachments (which includes request attachments, email attachments, Document Manager documents, etc.) via Secure FTP within two password-encrypted ZIPs. An email is then sent to the contacts associated to the Hornbill instance containing information about the data drop along with the key required to unencrypt the content.
