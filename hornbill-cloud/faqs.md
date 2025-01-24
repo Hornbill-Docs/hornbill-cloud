@@ -3,22 +3,30 @@ layout: article-toc
 ---
 # General FAQs
 ## Generic Security questionnaires
-At Hornbill we take our responsibility as a cloud service provider very seriously.
 
-We recognize that you as a customer must to take the important step of ensuring that we are doing the right things and have the appropriate processes and measures in place around the delivery of the Hornbill service. What we have found over the years is that this typically means that your security team will often have questions they want or need to ask in order to satisfy your organizations policies in respect to on-boarding a new cloud service. As a rule this process typically takes one of two forms:
-* the 'security questionnaire', or,
-* the 'quick discussion'.
+### Hornbill’s Approach to Security and Compliance
+At Hornbill, we are deeply committed to delivering secure and reliable cloud services. Our Information Security Management System (ISMS), certified to ISO 27001 and ISO 27018, ensures we meet internationally recognised standards for information security and data protection. This ISMS is publicly accessible and provides transparency into the rigorous policies, processes, and controls we have in place.
 
-These approaches both have their merits and provide information relevant at that point in time. One must concede that in the world of technology and cloud services things develop and evolve at a fast pace, and as a result at Hornbill we are continuously improving our security and cloud policies over time to keep track with changes in technology and in response to the evolution of security and compliance requirements.
+### Our Position on Security Questionnaires
+* Empowering Customer Due Diligence
+We understand that your InfoSec team must evaluate whether our policies and practices meet your organisation’s requirements. It is their responsibility to assess our documented ISMS and determine whether it aligns with your specific security and compliance needs.
 
-As a result Hornbill has adopted a policy where we do not complete individual security questionnaires, as aside from this being a very repetitive and time consuming exercise, for the reasons outlined above information supplied and subsequently filed away by your organization is very often quickly out of date or obsolete.
+* Limitations of Custom Questionnaires
 
-In seeking to ensure that you have the information you require at the outset to make an accurate judgment as to our suitability as a Cloud provider and in looking to simplify the task for your security team in revisiting and reviewing our cloud service as required, we offer the following approach.
+Hornbill does not complete bespoke security questionnaires. These are often repetitive, quickly outdated, and do not account for the continuous improvements we make to our processes. Instead, we provide a publicly available ISMS framework that offers a comprehensive and up-to-date view of our security practices.
 
-We have pulled together a set of frequently asked questions (FAQ's) that relate to our cloud services, these have been built up over time in response to security questions we have been asked over time and include questions we ourselves would ask when signing up to a cloud service ourselves.
+Access to Expertise
+*For Enterprise customers, we offer a 30-minute consultation with a member of our Cloud Team to address any critical questions not answered by our ISMS documentation.
+*Non-Enterprise customers can explore service credit options for similar support.
 
-If for any reason your security team are unable to completely satisfy themselves with the documented information or if for any reason they find we have not provided answers to any specific areas then Enterprise customers can schedule a 30 minute conference call* directly with a specialist from our cloud team to answer any outstanding questions, which in turn will be added to the FAQ's on the Hornbill Documentation. Non enterprise customers should contact your Hornbill Representative to discuss the use of service credits. 
+### Why This Approach Works
+* Transparency: Our public-facing ISMS ensures you have direct access to the up-to-date details necessary to make informed decisions.
+* Customer Responsibility: Your InfoSec team is best placed to determine whether our practices and policies align with your organisation’s standards. We provide the information and transparency needed to support this evaluation.
+* Efficiency:  By maintaining a centralised, regularly updated ISMS, we focus our resources on continually enhancing our security posture rather than repetitive administrative tasks. Where a question arises that is not addressed in our online documentation, please advise, and Hornbill shall publish a response in a timely manner.
 
+Hornbill’s approach balances the need for security assurance with operational efficiency. By leveraging our publicly available ISMS and collaborating as needed, your organization retains full control over assessing our suitability while benefiting from a clear, reliable, and continuously updated framework.
+
+We believe this process ensures a fair and transparent partnership and invite you to review our ISMS to begin your assessment.
 
 
 ## What if I need a copy of my data? What is involved, and how frequently can I get hold of it?
