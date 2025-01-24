@@ -5,15 +5,15 @@ layout: article-toc
 ## Generic Security questionnaires
 At Hornbill we take our responsibility as a cloud service provider very seriously.
 
-We recognise that you as a customer must to take the important step of ensuring that we are doing the right things and have the appropriate processes and measures in place around the delivery of the Hornbill service. What we have found over the years is that this typically means that your security team will often have questions they want or need to ask in order to satisfy your organisations policies in respect to on-boarding a new cloud service. As a rule this process typically takes one of two forms:
+We recognize that you as a customer must to take the important step of ensuring that we are doing the right things and have the appropriate processes and measures in place around the delivery of the Hornbill service. What we have found over the years is that this typically means that your security team will often have questions they want or need to ask in order to satisfy your organizations policies in respect to on-boarding a new cloud service. As a rule this process typically takes one of two forms:
 * the 'security questionnaire', or,
 * the 'quick discussion'.
 
 These approaches both have their merits and provide information relevant at that point in time. One must concede that in the world of technology and cloud services things develop and evolve at a fast pace, and as a result at Hornbill we are continuously improving our security and cloud policies over time to keep track with changes in technology and in response to the evolution of security and compliance requirements.
 
-As a result Hornbill has adopted a policy where we do not complete individual security questionnaires, as aside from this being a very repetitive and time consuming exercise, for the reasons outlined above information supplied and subsequently filed away by your organisation is very often quickly out of date or obsolete.
+As a result Hornbill has adopted a policy where we do not complete individual security questionnaires, as aside from this being a very repetitive and time consuming exercise, for the reasons outlined above information supplied and subsequently filed away by your organization is very often quickly out of date or obsolete.
 
-In seeking to ensure that you have the information you require at the outset to make an accurate judgement as to our suitability as a Cloud provider and in looking to simplify the task for your security team in revisiting and reviewing our cloud service as required, we offer the following approach.
+In seeking to ensure that you have the information you require at the outset to make an accurate judgment as to our suitability as a Cloud provider and in looking to simplify the task for your security team in revisiting and reviewing our cloud service as required, we offer the following approach.
 
 We have pulled together a set of frequently asked questions (FAQ's) that relate to our cloud services, these have been built up over time in response to security questions we have been asked over time and include questions we ourselves would ask when signing up to a cloud service ourselves.
 
