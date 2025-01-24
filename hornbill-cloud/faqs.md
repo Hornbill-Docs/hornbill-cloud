@@ -16,7 +16,7 @@ We understand that your InfoSec team must evaluate whether our policies and prac
 Hornbill does not complete bespoke security questionnaires. These are often repetitive, quickly outdated, and do not account for the continuous improvements we make to our processes. Instead, we provide a publicly available ISMS framework that offers a comprehensive and up-to-date view of our security practices.
 
 Access to Expertise
-* For Enterprise customers, we offer a 30-minute consultation with a member of our Cloud Team to address any critical questions not answered by our ISMS documentation.
+* For Enterprise customers, we offer a 30-minute consultation with a member of our Proffesional Services Team to address any critical questions not answered by our ISMS documentation.
 * Non-Enterprise customers can explore service credit options for similar support.
 
 ### Why This Approach Works
