@@ -5,7 +5,7 @@ layout: article-toc
 ## Generic Security questionnaires
 
 ### Hornbill’s Approach to Security and Compliance
-At Hornbill, we are deeply committed to delivering secure and reliable cloud services. Our Information Security Management System (ISMS), certified to ISO 27001 and ISO 27018, ensures we meet internationally recognised standards for information security and data protection. This ISMS is publicly accessible and provides transparency into the rigorous policies, processes, and controls we have in place.
+At Hornbill, we are deeply committed to delivering secure and reliable cloud services. Our Information Security Management System (ISMS), certified to ISO 27001 and ISO 27018, ensures we meet internationally recognized standards for information security and data protection. This ISMS is publicly accessible and provides transparency into the rigorous policies, processes, and controls we have in place.
 
 ### Our Position on Security Questionnaires
 * Empowering Customer Due Diligence
@@ -16,13 +16,13 @@ We understand that your InfoSec team must evaluate whether our policies and prac
 Hornbill does not complete bespoke security questionnaires. These are often repetitive, quickly outdated, and do not account for the continuous improvements we make to our processes. Instead, we provide a publicly available ISMS framework that offers a comprehensive and up-to-date view of our security practices.
 
 Access to Expertise
-*For Enterprise customers, we offer a 30-minute consultation with a member of our Cloud Team to address any critical questions not answered by our ISMS documentation.
-*Non-Enterprise customers can explore service credit options for similar support.
+* For Enterprise customers, we offer a 30-minute consultation with a member of our Cloud Team to address any critical questions not answered by our ISMS documentation.
+* Non-Enterprise customers can explore service credit options for similar support.
 
 ### Why This Approach Works
 * Transparency: Our public-facing ISMS ensures you have direct access to the up-to-date details necessary to make informed decisions.
 * Customer Responsibility: Your InfoSec team is best placed to determine whether our practices and policies align with your organisation’s standards. We provide the information and transparency needed to support this evaluation.
-* Efficiency:  By maintaining a centralised, regularly updated ISMS, we focus our resources on continually enhancing our security posture rather than repetitive administrative tasks. Where a question arises that is not addressed in our online documentation, please advise, and Hornbill shall publish a response in a timely manner.
+* Efficiency:  By maintaining a centralized, regularly updated ISMS, we focus our resources on continually enhancing our security posture rather than repetitive administrative tasks. Where a question arises that is not addressed in our online documentation, please advise, and Hornbill shall publish a response in a timely manner.
 
 Hornbill’s approach balances the need for security assurance with operational efficiency. By leveraging our publicly available ISMS and collaborating as needed, your organization retains full control over assessing our suitability while benefiting from a clear, reliable, and continuously updated framework.
 
