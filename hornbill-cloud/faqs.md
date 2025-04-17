@@ -182,5 +182,63 @@ Directly restoring only the deleted data is often impractical due to the followi
 Once the review has been performed we will advise if the restore or just the missing data is feasable or an entire restore to last backup point is required. If you choose you can also have an export of the identified data for manual or other non restorative methods. 
 
 
+## What is the importance of the Instance Name in respect to provisioning your Hornbill Instance
+The Instance Name is used in the URL used by your organisation to access your specific Hornbill instance, this needs to be memorable easily identifiable and unique to your organisation.
+
+By way of example the Hornbill Public Demo instance which is available on our Corporate Website has the instance name Demo as such access to this is possible from the following URL https://live.hornbill.com/demo/
+
+As part of the sign up process for you will be asked to provide an Instance Name which our Product Specialists will use to initiate the provisioning of your specific Hornbill instance.
+
+The instance name should adhere to the following criteria:
+
+* Must be unique and identifiable. As such requests for intance names such as itsupport, serivcedesk or help will not be accepted.
+* Only contain letters and numbers (and must start with a letter)
+* No special characters (&, +, =, etc.)
+* Be no more than 45 characters long
+* Any Hornbill controlled email addresses must also contain this InstanceName at the end, for example - support-InstanceName@live.hornbill.com
 
 
+In the event an Instance Name is requested that has already been allocated you will be advised and an alternative will need to be provided.
+
+Hornbill retains the right to reject an Instance Name if it is felt to be inappropriate.
+
+Care should therefore be given when choosing an InstanceName to ensure that its easily memorable and reflects your organisation.
+
+
+
+## Can we Change our InstanceName
+It is possible should you wish to change your InstanceName at a later date, however the following must be considered.
+
+* Change will be made and old InstanceName retired. There is no redirection from old to new.
+* Any @live.hornbill.com email address will also be changed to include the new InstanceName. There is no redirection from old to new.
+* Any not relative Hyperlinks contained within comments or calls may not function.
+* Any not relative Hyperlinks contained within comments or calls may not function. (Note all Hornbill added links will be OK)
+* Downtime is required. Normally this is around 30 minutes, however the more data you have the longer this takes.
+* Any SSO profile may need to be updated.
+* Any Push data imports may need to be reconfigured.
+* BPMs should be checked to ensure they do not contain any hardcoded URLs
+* Email templates should be checked to ensure they do not contain any hardcoded URLs (you might want to consider using the email template variable: {{instanceId}} )
+
+Hornbill allows 1 change of InstanceName without cost, subsequent changes will be charged. It should be noted that InstanceNames are provided on first-come first-served basis and Hornbill retains the right to reject an Instance Name if it is felt to be inappropriate.
+
+Although it is possible to undergo a Instance Name change without any professional services, we do recommend engaging with the team as they can then perform a full review of your system to highlight any of the above areas that may be of concern.
+
+
+## What is the Account Authority, and what responsibilities does this person have?
+The Account Authority is a named contact on record for your Hornbill Instance who has the authority to make commercial and strategic decisions on behalf of your organisation in relation to Hornbill, these responsibilities include and are not limited to:
+
+* Accepting the Hornbill Solution at the end of a 30 Day Free Trial and initiating the subscription to the Hornbill Service.
+* Increasing or decreasing the number of subscriptions to a particular Hornbill solution.
+* Subscribing or Unsubscribing to a Hornbill application.
+In essence this person is the overall sponsor of the Hornbill Solution within your organisation.
+
+## What is the Primary Technical Contact, and what responsibilities does this person have?
+Once the Switch On is complete, it will be necessary to have on record one or more support contacts. The primary contact will have the authority to raise questions or requests with Hornbill Support and will be required to liaise with the Hornbill Customer Success Team with regards to implementing solutions. They should also have the authority to make decisions regarding Cloud Service availability (in the unlikely event of our Cloud team needing to co-ordinate a downtime requirement). The contact should be trusted with Application Admin privileges.
+
+They will also be required to approve the registration of additional support contacts. You may depending on your Success Plan add a number of additional supported contacts. Hornbill will only take support requests from known and pre registered contacts for your instance as part of our cloud security policies.
+
+## What is the Secondary Technical Contact, and what responsibilities does this person have?
+It is advisable to have a Secondary Technical Contact within your organization registered with Hornbill so as to allow this person to raise Application Support requests with the Hornbill Customer Success Team in addition to or in the place of your Primary Technical Contact should they be unavailable.
+
+## What is the Data Security Officer, and what responsibilities does this person have?
+If we have any data security issues that we need to raise with your organization, this contact would be our first port of call. This is typically the person in your organization responsible for your information security policies and practices, but it can be anyone you nominate. If you do not specify a contact point for this then we would default to communicating or sending notifications of such issues to the authoritative contact.
