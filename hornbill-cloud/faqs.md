@@ -9,7 +9,7 @@ At Hornbill, we are deeply committed to delivering secure and reliable cloud ser
 
 ### Our Position on Security Questionnaires
 * Empowering Customer Due Diligence
-We understand that your InfoSec team must evaluate whether our policies and practices meet your organisation’s requirements. It is their responsibility to assess our documented ISMS and determine whether it aligns with your specific security and compliance needs.
+We understand that your InfoSec team must evaluate whether our policies and practices meet your organization’s requirements. It is their responsibility to assess our documented ISMS and determine whether it aligns with your specific security and compliance needs.
 
 * Limitations of Custom Questionnaires
 
@@ -21,7 +21,7 @@ Access to Expertise
 
 ### Why This Approach Works
 * Transparency: Our public-facing ISMS ensures you have direct access to the up-to-date details necessary to make informed decisions.
-* Customer Responsibility: Your InfoSec team is best placed to determine whether our practices and policies align with your organisation’s standards. We provide the information and transparency needed to support this evaluation.
+* Customer Responsibility: Your InfoSec team is best placed to determine whether our practices and policies align with your organization’s standards. We provide the information and transparency needed to support this evaluation.
 * Efficiency:  By maintaining a centralized, regularly updated ISMS, we focus our resources on continually enhancing our security posture rather than repetitive administrative tasks. Where a question arises that is not addressed in our online documentation, please advise, and Hornbill shall publish a response in a timely manner.
 
 Hornbill’s approach balances the need for security assurance with operational efficiency. By leveraging our publicly available ISMS and collaborating as needed, your organization retains full control over assessing our suitability while benefiting from a clear, reliable, and continuously updated framework.
@@ -183,7 +183,7 @@ Once the review has been performed we will advise if the restore or just the mis
 
 
 ## What is the importance of the Instance Name in respect to provisioning your Hornbill Instance
-The Instance Name is used in the URL used by your organisation to access your specific Hornbill instance, this needs to be memorable easily identifiable and unique to your organisation.
+The Instance Name is used in the URL used by your organization to access your specific Hornbill instance, this needs to be memorable easily identifiable and unique to your organization.
 
 By way of example the Hornbill Public Demo instance which is available on our Corporate Website has the instance name Demo as such access to this is possible from the following URL https://live.hornbill.com/demo/
 
@@ -202,7 +202,7 @@ In the event an Instance Name is requested that has already been allocated you w
 
 Hornbill retains the right to reject an Instance Name if it is felt to be inappropriate.
 
-Care should therefore be given when choosing an InstanceName to ensure that its easily memorable and reflects your organisation.
+Care should therefore be given when choosing an InstanceName to ensure that its easily memorable and reflects your organization.
 
 
 
@@ -225,12 +225,12 @@ Although it is possible to undergo a Instance Name change without any profession
 
 
 ## What is the Account Authority, and what responsibilities does this person have?
-The Account Authority is a named contact on record for your Hornbill Instance who has the authority to make commercial and strategic decisions on behalf of your organisation in relation to Hornbill, these responsibilities include and are not limited to:
+The Account Authority is a named contact on record for your Hornbill Instance who has the authority to make commercial and strategic decisions on behalf of your organization in relation to Hornbill, these responsibilities include and are not limited to:
 
 * Accepting the Hornbill Solution at the end of a 30 Day Free Trial and initiating the subscription to the Hornbill Service.
 * Increasing or decreasing the number of subscriptions to a particular Hornbill solution.
 * Subscribing or Unsubscribing to a Hornbill application.
-In essence this person is the overall sponsor of the Hornbill Solution within your organisation.
+In essence this person is the overall sponsor of the Hornbill Solution within your organization.
 
 ## What is the Primary Technical Contact, and what responsibilities does this person have?
 Once the Switch On is complete, it will be necessary to have on record one or more support contacts. The primary contact will have the authority to raise questions or requests with Hornbill Support and will be required to liaise with the Hornbill Customer Success Team with regards to implementing solutions. They should also have the authority to make decisions regarding Cloud Service availability (in the unlikely event of our Cloud team needing to co-ordinate a downtime requirement). The contact should be trusted with Application Admin privileges.
