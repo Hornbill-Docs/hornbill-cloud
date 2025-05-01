@@ -227,7 +227,6 @@ Although it is possible to undergo a Instance Name change without any profession
 ## What is the Account Authority, and what responsibilities does this person have?
 The Account Authority is a named contact on record for your Hornbill Instance who has the authority to make commercial and strategic decisions on behalf of your organization in relation to Hornbill, these responsibilities include and are not limited to:
 
-* Accepting the Hornbill Solution at the end of a 30 Day Free Trial and initiating the subscription to the Hornbill Service.
 * Increasing or decreasing the number of subscriptions to a particular Hornbill solution.
 * Subscribing or Unsubscribing to a Hornbill application.
 In essence this person is the overall sponsor of the Hornbill Solution within your organization.
