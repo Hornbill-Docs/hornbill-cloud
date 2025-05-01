@@ -232,7 +232,7 @@ The Account Authority is a named contact on record for your Hornbill Instance wh
 In essence this person is the overall sponsor of the Hornbill Solution within your organization.
 
 ## What is the Primary Technical Contact, and what responsibilities does this person have?
-Once the Switch On is complete, it will be necessary to have on record one or more support contacts. The primary contact will have the authority to raise questions or requests with Hornbill Support and will be required to liaise with the Hornbill Customer Success Team with regards to implementing solutions. They should also have the authority to make decisions regarding Cloud Service availability (in the unlikely event of our Cloud team needing to co-ordinate a downtime requirement). The contact should be trusted with Application Admin privileges.
+The primary contact will have the authority to raise questions or requests with Hornbill Support and will be required to liaise with the Hornbill Customer Success Team with regards to implementing solutions. They should also have the authority to make decisions regarding Cloud Service availability (in the unlikely event of our Cloud team needing to co-ordinate a downtime requirement). The contact should be trusted with Application Admin privileges.
 
 They will also be required to approve the registration of additional support contacts. You may depending on your Success Plan add a number of additional supported contacts. Hornbill will only take support requests from known and pre registered contacts for your instance as part of our cloud security policies.
 
