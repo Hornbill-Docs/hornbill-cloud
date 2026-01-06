@@ -59,7 +59,7 @@ By default, your instance is automatically provisioned with 30GB of storage. Add
 
 ## How long does Hornbill retain the data if we cancel our subscription?
 
-In the event you choose to terminate your agreement, Hornbill will retain your customer data for a period of 30 days from the date of termination. We will of course provide you with a copy of this data upon request in an industry-standard, machine-readable format.
+In the event you choose to terminate your agreement, Hornbill will retain your customer data for a period of 30 days from the date of termination, as it cycles out of backups. We will of course provide you with a copy of this data upto the point of Instance termination.
 
 ## Does Hornbill perform background checks on personnel with administrative access to servers, applications, and customer data?
 
@@ -79,7 +79,7 @@ This British standard covers the following areas, which tick all the necessary b
 All data in motion between instance and client (web browser) is encrypted via HTTPS\SSL. All other data in transit is encrypted via other secure protocols. No data is ever transmitted in clear text.
 
 ## What happens with our data after we terminate our subscription?
-Upon any termination, Hornbill shall use reasonable endeavors to assist in the migration of the customer’s data and documents to another system within 20 working days. Such assistance is subject to Hornbill’s terms for time and materials consultancy services and its associated standard day rates. Hornbill also agrees that such estimates for work will be reasonable and appropriate to the scale of request received for such data. Hornbill will delete (see below) the customer data between 30 and 60 days after the termination date. This includes all backups and data relating to those backups (replications, keys, catalogs, etc.).
+Upon any termination, Hornbill shall use reasonable endeavors to assist in the migration of the customer’s data and documents to another system within 20 working days. Such assistance is subject to Hornbill’s terms for time and materials consultancy services and its associated standard day rates. Hornbill also agrees that such estimates for work will be reasonable and appropriate to the scale of request received for such data. Hornbill will delete (see below) the customer data between 30 and 60 days after the termination date as it cycles out of backups. This includes all backups and data relating to those backups (replications, keys, catalogs, etc.).
 
  A data export of your Hornbill instance will be provided on request (a number of CSV files of your data) on termination, and a copy of file attachments (which includes request attachments, email attachments, Document Manager documents, etc.) via Secure FTP within two password-encrypted ZIPs. An email is then sent to the contacts associated to the Hornbill instance containing information about the data drop along with the key required to unencrypt the content.
 
