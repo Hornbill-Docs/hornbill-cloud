@@ -6,25 +6,25 @@ Hornbill measures the space used by your data. It does not measure disk space us
 
 ## Disk storage
 Files are stored using Content Addressable File Store (CAFS) technology. Each customer has their own CAFS store. The following elements of an instance contribute to disk storage usage:
-* File Attachments (e-mails, posts, entity records, requests, tasks, etc.).
-* Content Indexes.
-* Embedded Images.
+* File attachments (e-mails, posts, entity records, requests, tasks, etc.).
+* Content indexes.
+* Embedded images.
 * Documents (uploaded into Document Manager).
 * Application data.
 * Any other large binary object.
 
 ## Database storage
 The underlying database is a MySQL or MySQL compatible database system.  Each customer instance has its own dedicated and isolated database. The following elements of your instance contribute towards database storage usage.
-* Posts and comments on activity streams.
+* Posts and comments on [activity streams](/esp-fundamentals/core-capabilities/activity-streams).
 * Tasks.
 * Customers, Contacts, Users, Requests, Tasks and many other database records.
-* Business Processes.
+* Workflows.
 * Runtime and Security Audit logs.
 * Reports.
-* Any dynamic content that's added to your database through the APIs, forms, and integrations.
+* Any dynamic content that is added to your database through the APIs, forms, and integrations.
 
 ## Storage quota and utilization
-Every Hornbill instance comes with 30Gb of storage, and additional storage can be purchased when needed. We audit storage utilization daily and keep storage utilization history on the following basis.
+Each Hornbill instance includes 30GB of storage, with the option to purchase additional storage as needed. We conduct daily audits of storage utilization and maintain a historical record of storage usage based on the following criteria.
 
 * Daily database storage used for the last 90 days rolling.
 * Daily disk storage used for the last 90 days rolling.
@@ -34,7 +34,7 @@ Your storage information can be seen in the [Hornbill Solution Center](/esp-conf
 :::
 
 ## Storage size definition
-There is sometimes confusion about abbreviated size values used in computing. For example, most uses of the term GB mean Gigabyte, but there are two values this can mean, one is decimal, based on "1 byte x 1000 x 1000 x 1000" and the other is base 2, which is calculated as "1 byte x 1024 x 1024 x 1024). The modern interpretations of these size abbreviations are 1GB = 1000000000 bytes and 1GiB = 1,262,485,504 bytes, and in general, a GB is what is normally used. The problem with base 2 calculations is that they are non-linear and do not work properly as the computing technology has reached the tera and peta byte scale, so the decimal scheme has been adopted generally, and this is true for the Hornbill platform. The following table sets out what we mean when stating storage sizes in MB, GB, TB, etc.
+There is occasionally confusion regarding the abbreviated size values used in computing. For example, most uses of the term GB mean Gigabyte, but there are two values this can mean, one is decimal, based on "1 byte x 1000 x 1000 x 1000" and the other is base 2, which is calculated as "1 byte x 1024 x 1024 x 1024". The modern interpretations of these size abbreviations are 1GB = 1000000000 bytes and 1GiB = 1,262,485,504 bytes, and in general, a GB is what is normally used. The problem with base 2 calculations is that they are non-linear and do not work properly as the computing technology has reached the tera and peta byte scale, so the decimal scheme has been adopted generally, and this is true for the Hornbill platform. The following table sets out what we mean when stating storage sizes in MB, GB, TB, etc.
 
 
 ### Storage size abbreviations
@@ -59,18 +59,18 @@ This model provides a high level of data isolation because a fully independent i
 * Compute resources can be allocated/dedicated to individual customers.
 * Customers can run specific versions of the vendor's software in their specific instance.
 #### Disadvantages
-* Web-scale expandability is difficult to achieve, compute resources are finite, as they are tied to virtual machine/operating system compute resources.
+* Achieving web-scale expandability presents a significant challenge, primarily due to the finite nature of computing resources, which remain inherently linked to the capabilities of virtual machines and operating system resources.
 * Customers may find themselves unable to upgrade. The flexibility of running/locking down on individual versions of the software creates this problem as the software designers are not forced into considering the upgradability of every customer's changes and customizations. This is especially true when customizations require code to be developed as part of the customization.
 ### Multi-tenant
-This model provides data isolation at the application layer, which means that every customer's data is stored in the same database, and the application code ensures that data for each customer is only served to that customer. Properly implemented it is generally safe and reliable and has many large-scale proven applications deployed today. There are some big advantages, but these are mostly weighted to the benefit of a service provider who in turn, delivers benefits back to the customer through economies of scale and therefore price (in theory at least). Salesforce.com is a good example of a solution that adopts this model.
+This model provides data isolation at the application layer, which means that every customer's data is stored in the same database, and the application code ensures that data for each customer is only served to that customer. Properly implemented, it is generally safe and reliable and has many large-scale proven applications deployed today. There are some big advantages, but these are mostly weighted to the benefit of a service provider who, in turn, delivers benefits back to the customer through economies of scale and therefore price (in theory at least). Salesforce.com is a good example of a solution that adopts this model.
 #### Advantages
-Web-scale expandability is easier to achieve as the same computer resources are shared with all customers. All customers are on the same version of the software, which means all customers get all upgrades all of the time (think Facebook or Gmail)
+Web-scale expandability is easier to achieve as the same computer resources are shared with all customers. All customers are on the same version of the software, which means all customers get all upgrades all of the time (think Facebook or Gmail).
 Any customizations done by customers for their use have to be completely isolated (and therefore protected) during updates - this imposes the right behaviors on the software designers and development teams.
 #### Disadvantages
 Customers have no control over the versions of the software they use, they have to be prepared to consume the software as a service. The risk of data leaking is moved up the stack to the application layer, which means that the risk of unexpected data exposure is higher than lower-level data isolation. Code developed in the application layer could expose data unintentionally.
 
 ### Hornbill's model
-There are pros and cons to both of the models described above, and there are many more ways to deliver a SaaS solution than just those two extremes. Hornbill adopted a model that could best be described as a combination of those two approaches. It's hard to put a name to what we have built, but we would describe it as having true multi-tenant architecture, but with enterprise-class data isolation. The best way to explain this would be to set out what our primary design goals were at the time of designing our architecture and what we ultimately implemented.
+There are pros and cons to both of the models described above, and there are many more ways to deliver a SaaS solution than just those two extremes. Hornbill adopted a model that could best be described as a combination of those two approaches. It's hard to put a name to what we have built, but we would describe it as having true multi-tenant architecture, with enterprise-class data isolation. The best way to explain this would be to set out what our primary design goals were at the time of designing our architecture and what we ultimately implemented.
 
 Number one on our agenda is to have a data isolation model comparable to that found in a multi-instance mode.
 
