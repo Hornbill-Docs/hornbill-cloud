@@ -7,14 +7,14 @@ The network controls and system for remote connection via VPN coupled with the f
 ## Notification and Communication
 Any customer affected by a given incident will be notified. Hornbill will provide the following level of communication for each of the defined events. The incident is either a direct issue or one that affects part of our supply chain including tools we may use. For outages, the incident must last longer than 15 minutes (for shorter time frames updates may be posted on status or within the forum) and result in unacceptable (Greater than 2 seconds) or no response to an instance API endpoint.
 ### Outage
-Initial communication by Bulk email to all affected customers (Primary\Secondary and Technical as well as customer Partner) within 15 minutes
+Initial communication by Bulk email to all affected customers Authorative, Primary\Secondary Technical contacts listed against each instance as well as customer Partner) within 15 minutes
 
 Status Page and Notification to all subscribed users within 15 minutes of the Incident occurring. Continued updates every 15 minutes.
 
 Full RCA posted to Forum within 1 day of the event being resolved.
 
 ### Security Breach
-Initial communication by Bulk Email to all affected customers (Primary\Secondary and Technical as well as customer partners) within 1 hour of the event.
+Initial communication by Bulk Email to all affected customers (Authorative, Primary\Secondary Technical and Security contacts listed against each instance as well as customer partners) within 1 hour of the event.
 
 Follow-up telephone call to all affected customers (Primary) within 1 day
 
@@ -23,7 +23,7 @@ Daily updates (either by phone or email as agreed during a follow-up phone call)
 Full RCA and Post Mortem via Email within 1 day of the event being resolved.
 
 ###  Security Request
-In the event of a request for access to data from Law enforcement or another entity not immediately rejected the customer (Primary\Secondary and Technical) will be notified and approval sought before any action is taken (Unless the request specifically excludes such action/is non-negotiable and/or has been approved by the Chief Executive Officer).
+In the event of a request for access to data from Law enforcement or another entity not immediately rejected the customer (Authorative, Primary\Secondary Technical and Security contacts listed against each instance ) will be notified and approval sought before any action is taken (Unless the request specifically excludes such action/is non-negotiable and/or has been approved by the Chief Executive Officer).
 
 All communication will be via official channels. No personal mailboxes\twitter accounts or other social media will be used. If you have any concerns relating to communication either sent from or that appears to be sent from ourselves please contact htl.security@live.hornbill.com
 
@@ -33,4 +33,4 @@ Hornbill has not received any request from the Police or Government agency in an
 
 
 ### Security Concern
-In the event of a SIEM detection or similar abornmal activity Hornbill will contact the Authorized, Primary and Secondary Technical contacts within 1 hour . For concerns related to software incorporated in the stack Hornbill will post to the Hornbill Forum, when needed, any concern that is already mitagated through other controls\processes or configuration will not be routinely posted. 
+In the event of a SIEM detection or similar abornmal activity Hornbill will contact the Authorative, Primary\Secondary Technical and Security contacts listed against each instance within 1 hour . For concerns related to software incorporated in the stack Hornbill will post to the Hornbill Forum, when needed, any concern that is already mitagated through other controls\processes or configuration will not be routinely posted. 
