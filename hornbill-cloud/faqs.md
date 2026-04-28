@@ -59,7 +59,7 @@ By default, your instance is automatically provisioned with 30GB of storage. Add
 
 ## How long does Hornbill retain the data if we cancel our subscription?
 
-In the event you choose to terminate your agreement, Hornbill will retain your customer data for a period of 30 days from the date of termination, as it cycles out of backups. We will of course provide you with a copy of this data upto the point of Instance termination.
+In the event you choose to terminate your agreement,Hornbill will retain your data for up to 7 days if you have not requested an export of data or upto 20 Days from the date of termination if you have, as it cycles out of backups. We will of course provide you with a copy of this data upto the point of Instance termination.
 
 ## Does Hornbill perform background checks on personnel with administrative access to servers, applications, and customer data?
 
