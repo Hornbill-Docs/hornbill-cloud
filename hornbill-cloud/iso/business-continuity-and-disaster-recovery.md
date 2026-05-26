@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Business Continuity
-Hornbills configuration of servers\services has been planned to ensure that their is no single point of failure, all services have fail over servers or spare capacity.
+Hornbills configuration of servers\services has been planned to ensure that there is no single point of failure, all services have fail over servers or spare capacity.
 
 ## Business Continuity and Disaster Recovery plan
 Hornbill are committed to providing customers with access to their subscribed services and data even in the event of a emergency or disaster. Our plan is designed so that in the worst possible case customers will be without access to instances for the minimum time possible whilst a full restore is carried out to a secondary data center.

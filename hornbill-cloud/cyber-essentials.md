@@ -6,7 +6,7 @@ Cyber Essentials is a government backed scheme that hopes to promote good cyber 
 
 Our certificates are available via https://files.hornbill.com/misc/CyberEssentialsCert_HTL.pdf and https://files.hornbill.com/misc/CyberEssentialsCert_HSML.pdf
 
-We understand that this some customers may require this and to this end we have completed the questionnaire for Cyber essentials below to provide you with the answers you may require (Note that we would strongly recommend that you refer to our ISO polices which outline full details for each control rather than the simple yes\no answers required by this scheme.)
+We understand that some customers may require this and to this end we have completed the questionnaire for Cyber essentials below to provide you with the answers you may require (Note that we would strongly recommend that you refer to our ISO polices which outline full details for each control rather than the simple yes\no answers required by this scheme.)
 
 
 Remote Vulnerability Scan (Stage 1 – Cyber Essentials) Available on request. Full VAS scan conducted every month
@@ -117,7 +117,7 @@ Patch management
 
 46. Has software running on computers that are connected to or capable of connecting to the Internet been licensed and supported (by the software vendor or supplier of the software) to ensure security patches for known vulnerabilities are made available? In most cases
 
-47. Has out-date or older software been removed from computer and network devices that are connected to or capable of connecting to the Internet? In most cases
+47. Has outdated or older software been removed from computer and network devices that are connected to or capable of connecting to the Internet? In most cases
 
 48. Have all security patches for software running on computers and network devices that are connected to or capable of connecting to the Internet been installed within 14 days of release or automatically when they become available from vendors? In most cases
 

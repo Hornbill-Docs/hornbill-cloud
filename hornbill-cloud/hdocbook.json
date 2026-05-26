@@ -3,8 +3,8 @@
   "title": "Hornbill Cloud",
   "description": "An end-to-end guide to IT security at Hornbill",
   "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
-  "productFamily": "operational",
-  "version": "1.0.3",
+  "productFamily": "hdocs",
+  "version": "1.0.4",
   "audience": [
     "public"
   ],

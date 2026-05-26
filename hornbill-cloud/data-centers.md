@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Data Centers
-My security team have asked to know more about Hornbills Data Centers, please can you advise?
+My security team have asked to know more about Hornbill's Data Centers, please can you advise?
 All our data centers comply to SSAE16 Our data centers are SSAE (Statement on Standards for Attestation Engagements) 16 Type II and CSAE (Canadian Standard on Assurance Engagements) 3416 certified. Certified Tier 3 Data Center as well as ISO27001.
 
 Who is responsible for delivery and management the Hornbill Cloud Service, is this outsourced?

@@ -43,7 +43,7 @@ Hornbills API Endpoints depend on your geographical location and will be listed 
 * `mdh-p01-api.hornbill.com`
 * `hhq-p02-api.hornbill.com`
 
-Hornbills also makes use of a number of URLs that should be whitelisted, these are
+Hornbill also makes use of a number of URLs that should be whitelisted, these are
 
 * `live.hornbill.com`
 * `customer.hornbill.com`

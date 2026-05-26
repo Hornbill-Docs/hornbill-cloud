@@ -16,7 +16,7 @@ We understand that your InfoSec team must evaluate whether our policies and prac
 Hornbill does not complete bespoke security questionnaires. These are often repetitive, quickly outdated, and do not account for the continuous improvements we make to our processes. Instead, we provide a publicly available ISMS framework that offers a comprehensive and up-to-date view of our security practices.
 
 Access to Expertise
-* For Enterprise customers, we offer a 30-minute consultation with a member of our Proffesional Services Team to address any critical questions not answered by our ISMS documentation.
+* For Enterprise customers, we offer a 30-minute consultation with a member of our Professional Services Team to address any critical questions not answered by our ISMS documentation.
 * Non-Enterprise customers can explore service credit options for similar support.
 
 ### Why This Approach Works
@@ -59,7 +59,7 @@ By default, your instance is automatically provisioned with 30GB of storage. Add
 
 ## How long does Hornbill retain the data if we cancel our subscription?
 
-In the event you choose to terminate your agreement,Hornbill will retain your data for up to 7 days if you have not requested an export of data or upto 20 Days from the date of termination if you have, as it cycles out of backups. We will of course provide you with a copy of this data upto the point of Instance termination.
+In the event you choose to terminate your agreement,Hornbill will retain your data for up to 7 days if you have not requested an export of data or up to 20 Days from the date of termination if you have, as it cycles out of backups. We will of course provide you with a copy of this data up to the point of Instance termination.
 
 ## Does Hornbill perform background checks on personnel with administrative access to servers, applications, and customer data?
 
@@ -125,7 +125,7 @@ The Mean Time to Recovery (MTTR) for outages, specifically referring to the serv
 
 For those interested in more detailed and real-time insights into Hornbill's service status, including the frequency and impact of outages, users can visit status.hornbill.com. This platform provides comprehensive data, historical performance, and updates regarding service availability, offering transparency and allowing users to stay informed about the operational status of Hornbill's services.
 
-## Who is Hornbills DPO?
+## Who is Hornbill's DPO?
 Hornbill, as mentioned, does not have a designated Data Protection Officer. This is because it does not meet the specific criteria outlined by GDPR that would necessitate the appointment of a DPO. However, we have appointed a senior member of the board in a similar role and they can be contacted via security-hornbill@live.hornbill.com
 
 
@@ -145,7 +145,7 @@ Furthermore, Hornbill's approach to real-time application protection is likely e
 
 
 ## Can we delete records or users after a Number of Years?
-Hornbil, offers a suite of tools specifically designed to facilitate data hygiene and compliance with data retention policies. These tools are highly versatile and can be configured to execute automated tasks according to a predetermined schedule, ensuring that data is managed efficiently.
+Hornbill offers a suite of tools specifically designed to facilitate data hygiene and compliance with data retention policies. These tools are highly versatile and can be configured to execute automated tasks according to a predetermined schedule, ensuring that data is managed efficiently.
 
 The platform allows administrators to set up these tasks to target specific types of data, such as user accounts, service requests, or any other data entities within the system. This flexibility means that organizations can tailor their data management practices to suit their unique operational needs and compliance requirements. For instance, user data that is no longer needed after a certain period can be automatically deleted to free up system resources and reduce potential security risks. Similarly, old service requests that have been resolved and are no longer relevant can be archived or purged to streamline the database and improve overall system performance.
 
@@ -160,7 +160,7 @@ However, while Hornbill may not have achieved PSN-P compliance, it is important 
 Although the data centers themselves are not officially PASF accredited, Hornbill's commitment to security is evident in the comprehensive measures they have implemented. These measures include advanced physical security, access control systems, robust cybersecurity frameworks, and constant monitoring to safeguard data against potential threats. These security practices ensure that Hornbill’s data centers provide a secure environment that aligns closely with the objectives of PASF accreditation, thereby offering a high level of assurance to its clients regarding the safety and confidentiality of their data.
 
 
-## Can I request data restored fromm Backups, If I accidently delete something
+## Can I request data restored from Backups, If I accidently delete something
 
 Hornbill backups are primarily intended for disaster recovery (DR) purposes, not for correcting customer-initiated data deletions.
 
@@ -187,11 +187,11 @@ The Instance Name is used in the URL used by your organization to access your sp
 
 By way of example the Hornbill Public Demo instance which is available on our Corporate Website has the instance name Demo as such access to this is possible from the following URL https://live.hornbill.com/demo/
 
-As part of the sign up process for you will be asked to provide an Instance Name which our Product Specialists will use to initiate the provisioning of your specific Hornbill instance.
+As part of the sign up process, you will be asked to provide an Instance Name which our Product Specialists will use to initiate the provisioning of your specific Hornbill instance.
 
 The instance name should adhere to the following criteria:
 
-* Must be unique and identifiable. As such requests for intance names such as itsupport, serivcedesk or help will not be accepted.
+* Must be unique and identifiable. As such requests for instance names such as itsupport, serivcedesk or help will not be accepted.
 * Only contain letters and numbers (and must start with a letter)
 * No special characters (&, +, =, etc.)
 * Be no more than 45 characters long
@@ -202,7 +202,7 @@ In the event an Instance Name is requested that has already been allocated you w
 
 Hornbill retains the right to reject an Instance Name if it is felt to be inappropriate.
 
-Care should therefore be given when choosing an InstanceName to ensure that its easily memorable and reflects your organization.
+Care should therefore be given when choosing an InstanceName to ensure that it's easily memorable and reflects your organization.
 
 
 

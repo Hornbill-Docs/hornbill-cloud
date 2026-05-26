@@ -8,9 +8,9 @@ All applications and all programming interfaces are designed with the various NI
 
 Hornbill's architecture, design and development processes all incorporate in-depth consideration of the OWASP Top 10 Application Security Risks. Hornbill seeks to ensure its staff and processes are informed about the consequences of the most common and most important web application security weaknesses.
 
-Hornbills' data security model is the principle of least privilege and based on the idea of minimum rights for each individual to perform any given task. All-access is checked\granted by the server as required from the list of rights associated with the account at the time of use and can be elevated to perform the action if the user is permitted. If multiple roles\rights are associated with the user that would permit an action then the lowest is used
+Hornbill's data security model is the principle of least privilege and based on the idea of minimum rights for each individual to perform any given task. All-access is checked\granted by the server as required from the list of rights associated with the account at the time of use and can be elevated to perform the action if the user is permitted. If multiple roles\rights are associated with the user that would permit an action then the lowest is used
 
-The principle of least privilege means.
+The principle of least privilege means:
 
 * Better system stability. When code is limited in the scope of changes it can make to a system, it is easier to test its possible actions and interactions with other APIs.
 * Better system security. When code is limited in the system-wide actions it may perform, vulnerabilities in one application cannot be used to exploit the integrity of another application.
