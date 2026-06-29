@@ -44,7 +44,7 @@ All IOMARTS\RAPIDSWITCH data centers hold the following certifications
 `ISO 27001: 2022`<br>
 `ISO 9001: 2015` <br>
 `ISO 50001: 2011 Energy Management`<br>
-`ISO 23301: 2019`<br>
+`ISO 22301: 2019`<br>
 `ISO 20000: 2011`<br>
 
 Data Centers include London, Manchester, Maidenhead, Glasgow, Toronto, Buffalo, Chicago, Dallas, Dublin, Amsterdam, Frankfurt, Sydney, Singapore, Tokyo, Dubai and many more.
