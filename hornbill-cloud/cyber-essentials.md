@@ -4,7 +4,7 @@ layout: article-toc
 # Cyber Essentials
 Cyber Essentials is a government backed scheme that hopes to promote good cyber security. Although its scope and depth is limited and in reality offers little protection from all but the most casual of attacks, we have undertaken the certification process.
 
-Our certificates are available via https://files.hornbill.com/misc/CyberEssentialsCert_HTL.pdf and https://files.hornbill.com/misc/CyberEssentialsCert_HSML.pdf
+Our certificates are available via https://files.hornbill.com/misc/CyberEssentialsCert_HTL.pdf and https://files.hornbill.com/misc/HCL_Cyber_Essentials_Cert.pdf
 
 We understand that some customers may require this and to this end we have completed the questionnaire for Cyber essentials below to provide you with the answers you may require (Note that we would strongly recommend that you refer to our ISO polices which outline full details for each control rather than the simple yes\no answers required by this scheme.)
 
