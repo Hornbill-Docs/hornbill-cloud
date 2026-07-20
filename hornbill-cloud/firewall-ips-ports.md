@@ -45,6 +45,7 @@ Hornbills API Endpoints depend on your geographical location and will be listed 
 
 Hornbill also makes use of a number of URLs that should be whitelisted, these are
 
+* `login.hornbill.com`
 * `live.hornbill.com`
 * `customer.hornbill.com`
 * `files.hornbill.com`
