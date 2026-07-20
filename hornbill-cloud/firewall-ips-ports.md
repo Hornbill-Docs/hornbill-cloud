@@ -29,6 +29,7 @@ Hornbill will communicate using HTTP/HTTPS/WSS on Port 80 or 443 via
 ## Cloudflare
 Hornbill uses Cloudflare as a front end to provide geographical caching of static assets, all static content (NOT customer data) requests go via Cloudflare for load balancing, threat mitigation, and prevention. This front end also provides initial SSL certs (via sni.cloudflaressl.com) again for static (NON customer) assets. The list of Cloudflare resolved domains is below 
 
+* `login.hornbill.com`
 * `live.hornbill.com`
 * `customer.hornbill.com`
 
