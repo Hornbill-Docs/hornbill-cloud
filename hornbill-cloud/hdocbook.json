@@ -4,7 +4,7 @@
   "description": "An end-to-end guide to IT security at Hornbill",
   "publicSource": "https://github.com/Hornbill-Docs/hornbill-cloud.git",
   "productFamily": "hdocs",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "audience": [
     "public"
   ],
