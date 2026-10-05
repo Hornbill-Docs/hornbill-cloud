@@ -32,9 +32,9 @@ Customer data is stored in an appropriate geographic data center and personal da
 
 |Entity/Name|Purpose|Country|
 |-|-|-|
-|RapidSwitch - Maidenhead|Primary UK Data center, Co-Location (ISO27001:2013, ISO9001:2015, ISO50001:2011|UK|
-|Equinix - London 3|Primary UK Data center, Co-Location (ISO27001:2013, ISO9001:2015, ISO50001:2011|UK|
-|Hornbill Technologies Ltd - London|Beta Zone, Backup UK Data center (ISO27001:2013)|UK|
+|RapidSwitch - Maidenhead|Primary UK Data center, Co-Location (ISO27001:2022, ISO9001:2015, ISO50001:2018|UK|
+|Equinix - London 3|Primary UK Data center, Co-Location (ISO27001:2012, ISO9001:2015, ISO50001:2018|UK|
+|Hornbill Technologies Ltd - London|Beta Zone, Backup UK Data center (ISO27001:2022)|UK|
 |Peer1\Aptum – Los Angeles|Primary US Data center, Bare Metal (SSAE 16 Type II)|North America|
 |Peer1\Aptum – Washington DC|Backup US Data center, Bare Metal (SSAE 16 Type II)|North America|
 |Amazon Data Services Ltd|Off-line Data Backup/Storage|UK|
